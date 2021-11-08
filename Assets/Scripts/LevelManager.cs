@@ -181,6 +181,7 @@ public class LevelManager : MonoBehaviour
             GameManager.highestLevel8Score = total;
         }
         #endregion
+        GameManager.SaveGame();
 
         Continue.SetActive(true);
     }

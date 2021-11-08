@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     public static int Level1Star1 = 1, Level1Star2 = 3, Level1Star3 = 8;
     public static int Level2Star1, Level2Star2, Level2Star3;
     public static int Level3Star1, Level3Star2, Level3Star3;
@@ -16,4 +18,44 @@ public class GameManager : MonoBehaviour
     public static int highestLevel1Score, highestLevel2Score, highestLevel3Score, highestLevel4Score, 
                       highestLevel5Score, highestLevel6Score, highestLevel7Score, highestLevel8Score;
 
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        DontDestroyOnLoad(this.gameObject);
+    }
+
+    public static void SaveGame()
+    {
+        PlayerPrefs.SetInt("Level1High", highestLevel1Score);
+        PlayerPrefs.SetInt("Level2High", highestLevel2Score);
+        PlayerPrefs.SetInt("Level3High", highestLevel3Score);
+        PlayerPrefs.SetInt("Level4High", highestLevel4Score);
+        PlayerPrefs.SetInt("Level5High", highestLevel5Score);
+        PlayerPrefs.SetInt("Level6High", highestLevel6Score);
+        PlayerPrefs.SetInt("Level7High", highestLevel7Score);
+        PlayerPrefs.SetInt("Level8High", highestLevel8Score);
+
+        print("Game Saved: " + highestLevel1Score);
+    }
+
+    public static void LoadGame()
+    {
+        highestLevel1Score = PlayerPrefs.GetInt("Level1High");
+        highestLevel2Score = PlayerPrefs.GetInt("Level2High");
+        highestLevel3Score = PlayerPrefs.GetInt("Level3High");
+        highestLevel4Score = PlayerPrefs.GetInt("Level4High");
+        highestLevel5Score = PlayerPrefs.GetInt("Level5High");
+        highestLevel6Score = PlayerPrefs.GetInt("Level6High");
+        highestLevel7Score = PlayerPrefs.GetInt("Level7High");
+        highestLevel8Score = PlayerPrefs.GetInt("Level8High");
+
+        print("Game Loaded: " + highestLevel1Score);
+    }
 }
