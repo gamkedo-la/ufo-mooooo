@@ -6,6 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    public bool ignoreInitialLevelDelay;
+    public float initialLevelDelay = 5f;
+    bool roundStarted;
+
+    public Animator countdownWindow;
+    public Text countdownClock, countdownText;
+    public GameObject countdownObject;
+
     public bool level1, level2, level3, level4, level5, level6, level7, level8;
 
     public float minutes = 1, seconds = 30;
@@ -23,6 +31,17 @@ public class LevelManager : MonoBehaviour
         goldScore = 0;
         humanScore = 0;
         total = 0;
+
+        if (ignoreInitialLevelDelay)
+        {
+            initialLevelDelay = 0f;
+        }
+        else
+        {
+            initialLevelDelay = 5f;
+        }
+
+        stopCountDown = true;
 
         //This will need to be updated for multiplayers
         #region Determine Star Scores
@@ -77,8 +96,34 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
+        if (initialLevelDelay >= 0 && !roundStarted)
+        {
+            initialLevelDelay -= Time.deltaTime;
+
+            countdownClock.text = initialLevelDelay.ToString("F0");
+
+            if (initialLevelDelay >= 3)
+            {
+                countdownText.text = "Get Ready!";
+            }
+            else if (initialLevelDelay <= 3 && initialLevelDelay >= .5f)
+            {
+                countdownText.text = "Get Set!";
+            }
+            else
+            {
+                countdownText.text = "Go!";
+            }
+        }
+        else
+        {
+            countdownWindow.SetBool("Collapse", true);
+            StartCoroutine("Waiting");
+        }
+
         if (!stopCountDown)
         {
+            roundStarted = true;
             seconds -= Time.deltaTime;
             if (seconds <= 10)
             {
@@ -192,5 +237,14 @@ public class LevelManager : MonoBehaviour
         goldScore = 0;
         humanScore = 0;
         SceneManager.LoadScene("LevelSelect");
+    }
+
+    IEnumerator Waiting()
+    {
+        yield return new WaitForSeconds(1f);
+        roundStarted = true;
+        stopCountDown = false;
+        yield return new WaitForSeconds(2f);
+        countdownObject.SetActive(false);
     }
 }
