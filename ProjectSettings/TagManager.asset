@@ -9,6 +9,8 @@ TagManager:
   - Goal
   - Cow
   - GoldCow
+  - Gate
+  - Human
   layers:
   - Default
   - TransparentFX
