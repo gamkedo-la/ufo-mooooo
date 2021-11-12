@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool controllerDisabled;
 
+    public CharacterController controller;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -23,30 +25,19 @@ public class PlayerMovement : MonoBehaviour
         if (!controllerDisabled)
         {
             #region Movement
-            //Forward
-            if (Input.GetKey(KeyCode.W))
+
+            float horizontal = Input.GetAxisRaw("Horizontal");
+            float vertical = Input.GetAxisRaw("Vertical");
+            float zAxis = Input.GetAxisRaw("zAxis");
+
+            Vector3 direction = new Vector3(vertical, zAxis, horizontal).normalized;
+
+            if (direction.magnitude >= 0.1f)
             {
-                rb.velocity = transform.right * -horizontalSpeed;
+                controller.Move(direction * horizontalSpeed * Time.deltaTime);
             }
 
-            //Backward
-            if (Input.GetKey(KeyCode.S))
-            {
-                rb.velocity = transform.right * horizontalSpeed;
-            }
-
-            //Left
-            if (Input.GetKey(KeyCode.A))
-            {
-                rb.velocity = transform.forward * -horizontalSpeed;
-            }
-
-            //Right
-            if (Input.GetKey(KeyCode.D))
-            {
-                rb.velocity = transform.forward * horizontalSpeed;
-            }
-
+/*
             //Up
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -58,33 +49,17 @@ public class PlayerMovement : MonoBehaviour
             {
                 rb.velocity = transform.up * -verticalSpeed;
             }
+*/
             #endregion
 
             #region KeyUp - Stop Movement
-            //Forward
-            if (Input.GetKeyUp(KeyCode.W))
+
+            if (direction.magnitude <= 0.1f)
             {
-                rb.velocity = transform.right * 0;
+                controller.Move(direction * 0 * Time.deltaTime);
             }
 
-            //Backward
-            if (Input.GetKeyUp(KeyCode.S))
-            {
-                rb.velocity = transform.right * 0;
-            }
-
-            //Left
-            if (Input.GetKeyUp(KeyCode.A))
-            {
-                rb.velocity = transform.forward * 0;
-            }
-
-            //Right
-            if (Input.GetKeyUp(KeyCode.D))
-            {
-                rb.velocity = transform.forward * 0;
-            }
-
+            /*
             //Up
             if (Input.GetKeyUp(KeyCode.LeftShift))
             {
@@ -96,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 rb.velocity = transform.up * 0;
             }
+            */
             #endregion
 
             #region Beam

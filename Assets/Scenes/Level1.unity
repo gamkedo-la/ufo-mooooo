@@ -2418,6 +2418,7 @@ GameObject:
   - component: {fileID: 1097101645}
   - component: {fileID: 1097101644}
   - component: {fileID: 1097101647}
+  - component: {fileID: 1097101648}
   m_Layer: 0
   m_Name: UFO
   m_TagString: Player
@@ -2453,10 +2454,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b66313385d77b747bb6620c0ca4143c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalSpeed: 3
-  horizontalSpeed: 7
+  verticalSpeed: 10
+  horizontalSpeed: 15
   beam: {fileID: 2041738092}
   beamAnimation: {fileID: 1111680025}
+  controller: {fileID: 1097101648}
 --- !u!4 &1097101646
 Transform:
   m_ObjectHideFlags: 0
@@ -2485,6 +2487,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4, y: 0.48, z: 4}
   m_Center: {x: 0, y: 0.11, z: 0}
+--- !u!143 &1097101648
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097101643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 0.01
+  m_Radius: 0.01
+  m_SlopeLimit: 45
+  m_StepOffset: 0
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1111680025
 GameObject:
   m_ObjectHideFlags: 0
