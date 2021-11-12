@@ -11,6 +11,7 @@ TagManager:
   - GoldCow
   - Gate
   - Human
+  - Rocket
   layers:
   - Default
   - TransparentFX
