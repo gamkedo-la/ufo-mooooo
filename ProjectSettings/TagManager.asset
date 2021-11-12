@@ -12,6 +12,7 @@ TagManager:
   - Gate
   - Human
   - Rocket
+  - Ground
   layers:
   - Default
   - TransparentFX
