@@ -9,7 +9,7 @@ public class Rocketship : MonoBehaviour
 
     bool hasCollided;
     public GameObject explosionEffect;
-    public GameObject mainRocket, frontRocket;
+    public GameObject mainRocket;
 
     private void Start()
     {
@@ -26,8 +26,7 @@ public class Rocketship : MonoBehaviour
         else
         {
             explosionEffect.SetActive(true);
-            mainRocket.GetComponent<MeshRenderer>().enabled = false;
-            frontRocket.GetComponent<MeshRenderer>().enabled = false;
+            mainRocket.SetActive(false);
 
             this.GetComponent<SphereCollider>().radius *= 1.1f;
             StartCoroutine(Waiting());
