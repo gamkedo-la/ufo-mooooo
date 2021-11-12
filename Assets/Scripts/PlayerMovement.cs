@@ -24,8 +24,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!controllerDisabled)
         {
-            #region Movement
-
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
             float zAxis = Input.GetAxisRaw("zAxis");
@@ -37,42 +35,10 @@ public class PlayerMovement : MonoBehaviour
                 controller.Move(direction * horizontalSpeed * Time.deltaTime);
             }
 
-/*
-            //Up
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                rb.velocity = transform.up * verticalSpeed;
-            }
-
-            //Down
-            if (Input.GetKey(KeyCode.LeftControl))
-            {
-                rb.velocity = transform.up * -verticalSpeed;
-            }
-*/
-            #endregion
-
-            #region KeyUp - Stop Movement
-
             if (direction.magnitude <= 0.1f)
             {
                 controller.Move(direction * 0 * Time.deltaTime);
             }
-
-            /*
-            //Up
-            if (Input.GetKeyUp(KeyCode.LeftShift))
-            {
-                rb.velocity = transform.up * 0;
-            }
-
-            //Down
-            if (Input.GetKeyUp(KeyCode.LeftControl))
-            {
-                rb.velocity = transform.up * 0;
-            }
-            */
-            #endregion
 
             #region Beam
             if (Input.GetKeyDown(KeyCode.Space))
