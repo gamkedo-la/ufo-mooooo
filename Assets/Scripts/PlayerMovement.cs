@@ -39,7 +39,6 @@ public class PlayerMovement : MonoBehaviour
             {
                 controller.Move(direction * 0 * Time.deltaTime);
             }
-
             #region Beam
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -59,11 +58,6 @@ public class PlayerMovement : MonoBehaviour
         {
             beam.GetComponent<CapsuleCollider>().enabled = false;
             beamAnimation.SetActive(false);
-
-            /*rb.velocity = transform.right * 0;
-            rb.velocity = transform.forward * 0;
-            rb.velocity = transform.up * 0;
-            */
         }
     }
 
