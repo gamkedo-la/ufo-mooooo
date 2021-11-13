@@ -25,8 +25,12 @@ public class LevelManager : MonoBehaviour
     int scoreStar1, scoreStar2, scoreStar3;
     public GameObject levelFinished, star1, star2, star3;
     public GameObject Continue;
+    public static GameObject gateOpenedUI;
     private void Start()
     {
+        gateOpenedUI = GameObject.FindGameObjectWithTag("GateOpened");
+        gateOpenedUI.SetActive(false);
+
         score = 0;
         goldScore = 0;
         humanScore = 0;
@@ -237,6 +241,11 @@ public class LevelManager : MonoBehaviour
         goldScore = 0;
         humanScore = 0;
         SceneManager.LoadScene("LevelSelect");
+    }
+
+    public static void GateOpenedUIActive()
+    {
+        gateOpenedUI.SetActive(true);
     }
 
     IEnumerator Waiting()
