@@ -66,5 +66,6 @@ public class HumanCountdown : MonoBehaviour
         isContacted = false;
         countdown = startingTime;
         anim.SetBool("isOpen", false);
+        GameManager.gateOpened = false;
     }
 }
