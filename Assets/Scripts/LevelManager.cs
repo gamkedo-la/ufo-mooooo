@@ -28,6 +28,8 @@ public class LevelManager : MonoBehaviour
     public static GameObject gateOpenedUI;
     private void Start()
     {
+        GameManager.gateOpened = false;
+
         gateOpenedUI = GameObject.FindGameObjectWithTag("GateOpened");
         gateOpenedUI.SetActive(false);
 
@@ -246,6 +248,7 @@ public class LevelManager : MonoBehaviour
     public static void GateOpenedUIActive()
     {
         gateOpenedUI.SetActive(true);
+        GameManager.gateOpened = true;
     }
 
     IEnumerator Waiting()

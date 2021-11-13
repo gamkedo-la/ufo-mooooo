@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     public static int highestLevel1Score, highestLevel2Score, highestLevel3Score, highestLevel4Score, 
                       highestLevel5Score, highestLevel6Score, highestLevel7Score, highestLevel8Score;
 
+    public static bool gateOpened;
+
     private void Awake()
     {
         if (instance == null)

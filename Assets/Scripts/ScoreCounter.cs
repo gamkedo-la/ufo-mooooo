@@ -25,4 +25,22 @@ public class ScoreCounter : MonoBehaviour
             LevelManager.humanScore += humanScore;
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Cow")
+        {
+            LevelManager.score -= cowScore;
+        }
+
+        if (other.tag == "GoldCow")
+        {
+            LevelManager.goldScore -= goldCowScore;
+        }
+
+        if (other.tag == "Human")
+        {
+            LevelManager.humanScore -= humanScore;
+        }
+    }
 }

@@ -3355,7 +3355,7 @@ MonoBehaviour:
   level6: 0
   level7: 0
   level8: 0
-  minutes: 0
+  minutes: 2
   seconds: 30
   TimeRemaining: {fileID: 234820651}
   cowsCollected: {fileID: 1785532226}
@@ -4628,14 +4628,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3066607362189385864, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
-      propertyPath: m_Size.x
-      value: 1.302412
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066607362189385864, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
-      propertyPath: m_Center.x
-      value: 0.29007003
-      objectReference: {fileID: 0}
     - target: {fileID: 3066607362189385867, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
       propertyPath: m_Name
       value: Gate
@@ -4744,6 +4736,10 @@ PrefabInstance:
     - target: {fileID: 6658433403136669988, guid: 26eb76a7779487c4a8427a586e59d2bc, type: 3}
       propertyPath: m_Name
       value: BasicHuman
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658433403136669988, guid: 26eb76a7779487c4a8427a586e59d2bc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6658433403136669989, guid: 26eb76a7779487c4a8427a586e59d2bc, type: 3}
       propertyPath: humanHolder

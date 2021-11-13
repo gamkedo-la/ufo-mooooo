@@ -80,8 +80,22 @@ public class CowLift : MonoBehaviour
 
         if (isInGoal)
         {
-            GetComponent<CowLift>().enabled = false;
-            rb.constraints = RigidbodyConstraints.FreezeAll;
+            if (GameManager.gateOpened)
+            {
+                GetComponent<BoxCollider>().enabled = true;
+                rb.constraints = RigidbodyConstraints.None;
+
+                transform.LookAt(GameObject.FindGameObjectWithTag("OutsideTarget").transform);
+
+                transform.Translate(Vector3.forward * Time.deltaTime * travelingSpeed * 5);
+                StartCoroutine(CooldownOnGate());
+            }
+
+            else
+            {
+                GetComponent<BoxCollider>().enabled = false;
+                rb.constraints = RigidbodyConstraints.FreezeAll;
+            }
         }
     }
 
@@ -95,6 +109,21 @@ public class CowLift : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
         }
         isMoving = true;
+    }
+
+    IEnumerator WaitForGoal()
+    {
+        yield return new WaitForSeconds(.1f);
+
+        currentMove = Random.Range(minMove, maxMove);
+        currentStay = Random.Range(minStay, maxStay);
+        transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+    }
+
+    IEnumerator CooldownOnGate()
+    {
+        yield return new WaitForSeconds(5f);
+        isInGoal = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -118,6 +147,15 @@ public class CowLift : MonoBehaviour
         {
             isInGoal = true;
         }
+
+        if (other.tag == "OutsideTarget")
+        {
+            transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+            isMoving = true;
+            isInGoal = false;
+            StartCoroutine(WaitForGoal());
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
