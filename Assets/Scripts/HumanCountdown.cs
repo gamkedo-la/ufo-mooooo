@@ -8,6 +8,8 @@ public class HumanCountdown : MonoBehaviour
     public Animator anim;
     float startingTime = 5f;
     public float countdown = 5f;
+
+    GameObject humanToDestroy;
     
     void Update()
     {
@@ -19,6 +21,7 @@ public class HumanCountdown : MonoBehaviour
         if (countdown <= 0)
         {
             anim.SetBool("isOpen", true);
+            StartCoroutine(WaitingForDestroy());
         }
     }
 
@@ -27,6 +30,7 @@ public class HumanCountdown : MonoBehaviour
         if (other.tag == "Human")
         {
             isContacted = true;
+            humanToDestroy = other.gameObject;
         }
     }
 
@@ -36,19 +40,23 @@ public class HumanCountdown : MonoBehaviour
         {
             if (countdown <= 0)
             {
-                LevelManager.GateOpenedUIActive();
-                GameObject humanToDestroy = other.gameObject;
-                Destroy(humanToDestroy);
-                StartCoroutine(Waiting());
-                
+   
             }
-            else
+            if(countdown >= 0)
             {
                 isContacted = false;
                 countdown = startingTime;
                 anim.SetBool("isOpen", false);
             }
         }
+    }
+
+    IEnumerator WaitingForDestroy()
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(humanToDestroy);
+        LevelManager.GateOpenedUIActive();
+        StartCoroutine(Waiting());
     }
 
     IEnumerator Waiting()

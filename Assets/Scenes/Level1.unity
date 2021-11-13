@@ -4630,11 +4630,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3066607362189385864, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
       propertyPath: m_Size.x
-      value: 2.4570394
+      value: 1.302412
       objectReference: {fileID: 0}
     - target: {fileID: 3066607362189385864, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
       propertyPath: m_Center.x
-      value: -0.28724366
+      value: 0.29007003
       objectReference: {fileID: 0}
     - target: {fileID: 3066607362189385867, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
       propertyPath: m_Name
