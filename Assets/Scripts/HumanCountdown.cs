@@ -37,9 +37,10 @@ public class HumanCountdown : MonoBehaviour
             if (countdown <= 0)
             {
                 LevelManager.GateOpenedUIActive();
-                StartCoroutine(Waiting());
                 GameObject humanToDestroy = other.gameObject;
                 Destroy(humanToDestroy);
+                StartCoroutine(Waiting());
+                
             }
             else
             {
