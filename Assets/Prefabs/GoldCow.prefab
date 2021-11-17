@@ -9726,6 +9726,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levitateSpeed: 1.25
+  canMove: 1
+  travelingSpeed: 0.5
+  currentStay: 0
+  currentMove: 0
 --- !u!54 &2918934525754791223
 Rigidbody:
   m_ObjectHideFlags: 0
