@@ -13,6 +13,8 @@ public class MoveToGoal : MonoBehaviour
     bool isBeingLevitated;
     bool hitTop;
 
+    bool initialLanding;
+
     public GameObject humanHolder;
 
     private void Start()
@@ -20,6 +22,9 @@ public class MoveToGoal : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         navMesh = GetComponent<NavMeshAgent>();
         gate = GameObject.FindWithTag("Gate").transform;
+
+        rb.useGravity = true;
+        navMesh.enabled = false;
     }
 
     private void Update()
@@ -32,8 +37,11 @@ public class MoveToGoal : MonoBehaviour
 
         else
         {
-            navMesh.destination = gate.position;
-            navMesh.enabled = true;
+            if (initialLanding)
+            {
+                navMesh.destination = gate.position;
+                navMesh.enabled = true;
+            }
         }
 
         if (hitTop)
@@ -68,7 +76,13 @@ public class MoveToGoal : MonoBehaviour
 
         if (other.tag == "Ground")
         {
+            initialLanding = true;
             navMesh.enabled = true;
+            rb.useGravity = false;
+
+            rb.useGravity = true;
+            rb.constraints = RigidbodyConstraints.FreezeAll;
+            this.transform.parent = null;
             StartCoroutine(Waiting());
         }
     }
@@ -86,8 +100,7 @@ public class MoveToGoal : MonoBehaviour
         {
             hitTop = false;
             isBeingLevitated = false;
-            rb.useGravity = true;
-            this.transform.parent = null;
+
         }
     }
 
@@ -95,6 +108,7 @@ public class MoveToGoal : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         humanHolder.transform.Rotate(this.transform.rotation.x, this.transform.rotation.y, 0);
+        rb.constraints = RigidbodyConstraints.None;
         isBeingLevitated = false;
     }
 }
