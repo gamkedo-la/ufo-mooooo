@@ -265,6 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levitateSpeed: 2.5
+  humanHolder: {fileID: 0}
 --- !u!54 &1785517501
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CowSpawning : MonoBehaviour
 {
-    public GameObject cow, goldCow;
+    public bool SpawnHuman;
+    public GameObject cow, goldCow, human;
 
     public float timerToCreate;
     public float timerMin, timerMax;
@@ -37,15 +38,23 @@ public class CowSpawning : MonoBehaviour
     {
         for (int i = 0; i < cowsToCreate; i++)
         {
-            float WhichCowToSpawn = Random.Range(0, 100);
-
-            if (WhichCowToSpawn <= percentForGoldCow)
+            if (SpawnHuman)
             {
-                Instantiate(goldCow, new Vector3(Random.Range(minX.transform.position.x, maxX.transform.position.x), Random.Range(minY, maxY), Random.Range(minZ.transform.position.z, maxZ.transform.position.z)), Quaternion.Euler(0, Random.Range(0, 360), 0));
+               Instantiate(human, new Vector3(Random.Range(minX.transform.position.x, maxX.transform.position.x), Random.Range(minY, maxY), Random.Range(minZ.transform.position.z, maxZ.transform.position.z)), Quaternion.Euler(0, Random.Range(0, 360), 0));
             }
-            else if(WhichCowToSpawn >= percentForGoldCow)
+
+            else
             {
-                Instantiate(cow, new Vector3(Random.Range(minX.transform.position.x, maxX.transform.position.x), Random.Range(minY, maxY), Random.Range(minZ.transform.position.z, maxZ.transform.position.z)), Quaternion.Euler(0, Random.Range(0, 360), 0));
+                float WhichCowToSpawn = Random.Range(0, 100);
+
+                if (WhichCowToSpawn <= percentForGoldCow)
+                {
+                    Instantiate(goldCow, new Vector3(Random.Range(minX.transform.position.x, maxX.transform.position.x), Random.Range(minY, maxY), Random.Range(minZ.transform.position.z, maxZ.transform.position.z)), Quaternion.Euler(0, Random.Range(0, 360), 0));
+                }
+                else if (WhichCowToSpawn >= percentForGoldCow)
+                {
+                    Instantiate(cow, new Vector3(Random.Range(minX.transform.position.x, maxX.transform.position.x), Random.Range(minY, maxY), Random.Range(minZ.transform.position.z, maxZ.transform.position.z)), Quaternion.Euler(0, Random.Range(0, 360), 0));
+                }
             }
             cowsToCreate--;
         }
