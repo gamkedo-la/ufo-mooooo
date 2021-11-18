@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class MoveToGoal : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class MoveToGoal : MonoBehaviour
 
     public GameObject humanHolder;
 
+    GameObject humanSpottedText;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -25,6 +28,9 @@ public class MoveToGoal : MonoBehaviour
 
         rb.useGravity = true;
         navMesh.enabled = false;
+
+        humanSpottedText = GameObject.FindGameObjectWithTag("HumanSpotted");
+        humanSpottedText.GetComponent<Text>().text = "Human Spotted!".ToString();
     }
 
     private void Update()
@@ -100,7 +106,7 @@ public class MoveToGoal : MonoBehaviour
         {
             hitTop = false;
             isBeingLevitated = false;
-
+            DestroySelf();
         }
     }
 
@@ -110,5 +116,19 @@ public class MoveToGoal : MonoBehaviour
         humanHolder.transform.Rotate(this.transform.rotation.x, this.transform.rotation.y, 0);
         rb.constraints = RigidbodyConstraints.None;
         isBeingLevitated = false;
+    }
+
+    void DestroySelf()
+    {
+        GameObject[] humansActive = GameObject.FindGameObjectsWithTag("Human");
+        if (humansActive.Length > 1)
+        {
+            //Don't do anything, there are others
+        }
+        else if (humansActive.Length == 1)
+        {
+            humanSpottedText.GetComponent<Text>().text = "".ToString();
+        }
+        Destroy(this.gameObject);
     }
 }
