@@ -15,6 +15,7 @@ TagManager:
   - Ground
   - GateOpened
   - OutsideTarget
+  - HumanSpotted
   layers:
   - Default
   - TransparentFX
