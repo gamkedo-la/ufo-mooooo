@@ -5,6 +5,8 @@ using UnityEngine;
 public class CowSpawning : MonoBehaviour
 {
     public bool SpawnHuman;
+    public GameObject HumanLocationChoice;
+
     public GameObject cow, goldCow, human;
 
     public float timerToCreate;
@@ -41,6 +43,8 @@ public class CowSpawning : MonoBehaviour
             if (SpawnHuman)
             {
                Instantiate(human, new Vector3(Random.Range(minX.transform.position.x, maxX.transform.position.x), Random.Range(minY, maxY), Random.Range(minZ.transform.position.z, maxZ.transform.position.z)), Quaternion.Euler(0, Random.Range(0, 360), 0));
+                HumanLocationChoice.GetComponent<TurnHumanSpawnOn>().enabled = true;
+                StartCoroutine(Waiting());
             }
 
             else
@@ -61,5 +65,11 @@ public class CowSpawning : MonoBehaviour
 
         cowsToCreate = Random.Range(minCows, maxCows);
         timerToCreate = Random.Range(timerMin, timerMax);
+    }
+
+    IEnumerator Waiting()
+    {
+        yield return new WaitForSeconds(1);
+        this.gameObject.SetActive(false);
     }
 }
