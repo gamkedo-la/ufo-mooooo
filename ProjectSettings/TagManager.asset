@@ -16,6 +16,7 @@ TagManager:
   - GateOpened
   - OutsideTarget
   - HumanSpotted
+  - Water
   layers:
   - Default
   - TransparentFX
