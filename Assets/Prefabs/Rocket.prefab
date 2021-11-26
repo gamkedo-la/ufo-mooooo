@@ -9710,7 +9710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 105940926fbdf2d43bb944a50cde8471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.02
+  speed: 0.04
   explosionEffect: {fileID: 1294376807658991405}
   mainRocket: {fileID: 2105403176369898195}
 --- !u!135 &1294376808524513349
