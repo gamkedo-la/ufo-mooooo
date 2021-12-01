@@ -21,6 +21,9 @@ public class CowLift : MonoBehaviour
     public float currentMove;
     bool hasPickedRotation;
 
+    bool inWater;
+    public float waterLife = 3f;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -31,6 +34,15 @@ public class CowLift : MonoBehaviour
 
     private void Update()
     {
+        if (inWater)
+        {
+            waterLife -= Time.deltaTime;
+            if (waterLife <= 0)
+            {
+                Destroy(this.gameObject);
+            }
+        }
+
         if (!isInGoal)
         {
             if (!canMove)
@@ -156,6 +168,11 @@ public class CowLift : MonoBehaviour
             StartCoroutine(WaitForGoal());
         }
 
+        if (other.tag == "Water")
+        {
+            inWater = true;
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -177,6 +194,11 @@ public class CowLift : MonoBehaviour
                 rb.useGravity = true;
                 this.transform.parent = null;
             }
+            if (other.tag == "Water")
+            {
+                inWater = false;
+            }
+
         }
     }
 }
