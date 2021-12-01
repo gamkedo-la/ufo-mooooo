@@ -50,6 +50,8 @@ public class CowLift : MonoBehaviour
                 if (isBeingLevitated)
                 {
                     rb.velocity = transform.up * levitateSpeed;
+                    print("here");
+                    //transform.Translate(Vector3.up * Time.deltaTime * levitateSpeed);
                 }
 
                 if (hitTop)

@@ -9713,7 +9713,7 @@ MonoBehaviour:
   speed: 0.04
   explosionEffect: {fileID: 1294376807658991405}
   mainRocket: {fileID: 2105403176369898195}
-  lifeTime: 10
+  lifeTime: 15
   rocket: {fileID: 2105403176369898195}
   normal: {fileID: 2100000, guid: d8348d678d9b27b4ebbc1ab403c763eb, type: 2}
   red: {fileID: 2100000, guid: ce69cc68e3f634e4cb4de996396a0a5e, type: 2}
