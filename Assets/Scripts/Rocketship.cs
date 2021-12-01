@@ -11,6 +11,10 @@ public class Rocketship : MonoBehaviour
     public GameObject explosionEffect;
     public GameObject mainRocket;
 
+    public float lifeTime = 10f;
+    public GameObject rocket;
+    public Material normal, red;
+
     private void Start()
     {
         ship = GameObject.FindWithTag("Player").transform;
@@ -18,6 +22,28 @@ public class Rocketship : MonoBehaviour
 
     private void Update()
     {
+        lifeTime -= Time.deltaTime;
+
+        if (lifeTime <= 3 && lifeTime > 2)
+        {
+            //red
+            rocket.GetComponent<MeshRenderer>().material = red;
+        }
+        else if (lifeTime <= 2 && lifeTime > 1)
+        {
+            //white
+            rocket.GetComponent<MeshRenderer>().material = normal;
+        }
+        else if (lifeTime <= 1 && lifeTime > 0)
+        {
+            //red
+            rocket.GetComponent<MeshRenderer>().material = red;
+        }
+        else if(lifeTime <= 0)
+        {
+            hasCollided = true;
+        }
+
         if (!hasCollided)
         {
             transform.LookAt(ship);
@@ -28,7 +54,7 @@ public class Rocketship : MonoBehaviour
             explosionEffect.SetActive(true);
             mainRocket.SetActive(false);
 
-            this.GetComponent<SphereCollider>().radius *= 1.1f;
+            this.GetComponent<SphereCollider>().radius *= 1.01f;
             StartCoroutine(Waiting());
         }
     }
