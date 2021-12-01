@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1138558614
 Transform:
@@ -4822,7 +4822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 0
 --- !u!4 &1294376807658991404
 Transform:
@@ -9630,7 +9630,7 @@ GameObject:
   m_TagString: Rocket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1294376808524513350
 Transform:
@@ -9713,6 +9713,10 @@ MonoBehaviour:
   speed: 0.04
   explosionEffect: {fileID: 1294376807658991405}
   mainRocket: {fileID: 2105403176369898195}
+  lifeTime: 10
+  rocket: {fileID: 2105403176369898195}
+  normal: {fileID: 2100000, guid: d8348d678d9b27b4ebbc1ab403c763eb, type: 2}
+  red: {fileID: 2100000, guid: ce69cc68e3f634e4cb4de996396a0a5e, type: 2}
 --- !u!135 &1294376808524513349
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9816,6 +9820,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6085f473ca158d4469fac2e50fad2630, type: 3}
       propertyPath: m_Name
       value: rocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6085f473ca158d4469fac2e50fad2630, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6085f473ca158d4469fac2e50fad2630, type: 3}
