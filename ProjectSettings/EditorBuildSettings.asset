@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level8.unity
     guid: e3d7fef1359ef094d8338974db130ba1
+  - enabled: 1
+    path: Assets/Scenes/IntroCut.unity
+    guid: cb3b605187dc78f45943f413a7af9646
   m_configObjects: {}
