@@ -6,20 +6,17 @@ public class CowLift : MonoBehaviour
 {
     Rigidbody rb;
     public float levitateSpeed = 2.5f;
-    bool isBeingLevitated;
-    bool hitTop;
+    public Transform isBeingLevitatedTo;
 
-    bool isInGoal;
+    public bool isInGoal;
 
-    public bool canMove;
     public float travelingSpeed;
 
-    bool isMoving;
+    public bool isMoving;
     float minStay = 3, maxStay = 15;
     public float currentStay;
     float minMove = 3, maxMove = 15;
     public float currentMove;
-    bool hasPickedRotation;
 
     bool inWater;
     public float waterLife = 3f;
@@ -45,37 +42,33 @@ public class CowLift : MonoBehaviour
 
         if (!isInGoal)
         {
-            if (!canMove)
+            if (isBeingLevitatedTo != null)
             {
-                if (isBeingLevitated)
+                if (transform.position.y <= isBeingLevitatedTo.transform.position.y)
                 {
-                    rb.velocity = transform.up * levitateSpeed;
-                    print("here");
-                    //transform.Translate(Vector3.up * Time.deltaTime * levitateSpeed);
+                    transform.position += Vector3.up * levitateSpeed * Time.deltaTime;
+                }
+                else
+                {
+                    //if it is near/above us this will lock it to us
+                    transform.position = isBeingLevitatedTo.transform.position;
                 }
 
-                if (hitTop)
+                if (Input.GetKeyUp(KeyCode.Space))
                 {
-                    isBeingLevitated = false;
-                    rb.velocity = transform.up * 0;
-                }
-
-                if (Input.GetKeyUp(KeyCode.Space) && (hitTop || isBeingLevitated))
-                {
-                    isBeingLevitated = false;
-                    hitTop = false;
+                    isBeingLevitatedTo = null;
+                    rb.velocity = Vector3.zero;
                     rb.useGravity = true;
                     this.transform.parent = null;
-                    canMove = true;
                 }
             }
 
-            if (canMove)
+            else
             {
                 currentMove -= Time.deltaTime;
                 if (isMoving)
                 {
-                    transform.Translate(Vector3.forward * Time.deltaTime * travelingSpeed);
+                   transform.Translate(Vector3.forward * Time.deltaTime * travelingSpeed);
                 }
 
                 if (currentMove >= 0)
@@ -84,7 +77,7 @@ public class CowLift : MonoBehaviour
                 }
 
                 else
-                {       
+                {
                     isMoving = false;
                     currentMove = 0;
                     StartCoroutine(WaitForRotate());
@@ -147,14 +140,8 @@ public class CowLift : MonoBehaviour
             if (other.tag == "Beam")
             {
                 rb.useGravity = false;
-                isBeingLevitated = true;
-                this.transform.parent = GameObject.FindGameObjectWithTag("Beam").transform;
-                canMove = false;
-            }
-
-            if (other.tag == "Stopper")
-            {
-                hitTop = true;
+                isBeingLevitatedTo = other.gameObject.GetComponent<TargetStopperHeight>().stopperHeight;             
+                transform.parent = isBeingLevitatedTo.transform;
             }
         }
         if (other.tag == "Goal")
@@ -184,18 +171,11 @@ public class CowLift : MonoBehaviour
             if (other.tag == "Beam")
             {
                 rb.useGravity = true;
-                isBeingLevitated = false;
-                this.transform.parent = null;
-                canMove = true;
+                isBeingLevitatedTo = null;
+                transform.parent = null;
+                rb.velocity = Vector3.zero;
             }
 
-            if (other.tag == "Stopper")
-            {
-                hitTop = false;
-                isBeingLevitated = false;
-                rb.useGravity = true;
-                this.transform.parent = null;
-            }
             if (other.tag == "Water")
             {
                 inWater = false;

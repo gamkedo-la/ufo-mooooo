@@ -111,9 +111,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a37474a676e93e45b995e3b7d223004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levitateSpeed: 5
+  levitateSpeed: 10
+  isBeingLevitated: 0
+  hitTop: 0
+  isInGoal: 0
   canMove: 1
   travelingSpeed: 0.5
+  isMoving: 0
   currentStay: 0
   currentMove: 0
   waterLife: 3

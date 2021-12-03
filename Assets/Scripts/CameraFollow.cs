@@ -18,7 +18,7 @@ public class CameraFollow : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         if (Camera!=null) {
             // transform.position += new Vector3(Input.GetAxis("Horizontal") * playerSpeed * Time.smoothDeltaTime, 0, Input.GetAxis("Vertical"));
