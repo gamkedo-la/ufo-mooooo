@@ -140,7 +140,7 @@ public class CowLift : MonoBehaviour
             if (other.tag == "Beam")
             {
                 rb.useGravity = false;
-                isBeingLevitatedTo = other.gameObject.GetComponent<TargetStopperHeight>().stopperHeight;             
+                isBeingLevitatedTo = other.gameObject.GetComponent<TargetStopperHeight>().stopperHeight;
                 transform.parent = isBeingLevitatedTo.transform;
             }
         }
