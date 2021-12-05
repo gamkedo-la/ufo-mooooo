@@ -537,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objToCreate: {fileID: 5916520842839451081, guid: 37e17e33eca65334bb480927306e1cd9, type: 3}
-  objToCreateCount: 100
+  objToCreateCount: 200
   minX: -150
   maxX: 250
   minY: -70
@@ -1268,7 +1268,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3537,7 +3537,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3924,7 +3924,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -4821,7 +4821,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -5319,6 +5319,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 941252536}
     m_Modifications:
+    - target: {fileID: 1501051322459737605, guid: 2fe05d5a0f0b8864880b1b8845f1a60e, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1501051322459737607, guid: 2fe05d5a0f0b8864880b1b8845f1a60e, type: 3}
       propertyPath: fullText
       value: After traveling the universe in search of intelligent life, the Blorgs

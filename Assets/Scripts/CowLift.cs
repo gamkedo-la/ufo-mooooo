@@ -46,7 +46,8 @@ public class CowLift : MonoBehaviour
             {
                 if (transform.position.y <= isBeingLevitatedTo.transform.position.y)
                 {
-                    transform.position += Vector3.up * levitateSpeed * Time.deltaTime;
+                   // transform.position += Vector3.up * levitateSpeed * Time.deltaTime;
+                    transform.position = isBeingLevitatedTo.transform.position;
                 }
                 else
                 {
