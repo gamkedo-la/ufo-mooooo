@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CityToEnd.unity
     guid: 744ddeb84daac634b9eafaa14fde85f9
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: ba952b14830aa4b45b8befc93a5599ad
   m_configObjects: {}

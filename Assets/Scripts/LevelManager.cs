@@ -26,6 +26,8 @@ public class LevelManager : MonoBehaviour
     public GameObject levelFinished, star1, star2, star3;
     public GameObject Continue;
     public static GameObject gateOpenedUI;
+
+    public bool goToCredits;
     private void Start()
     {
         GameManager.gateOpened = false;
@@ -242,7 +244,13 @@ public class LevelManager : MonoBehaviour
         score = 0;
         goldScore = 0;
         humanScore = 0;
-        SceneManager.LoadScene("LevelSelect");
+
+        if (!goToCredits)
+        {
+            SceneManager.LoadScene("LevelSelect");
+        }
+        else
+            SceneManager.LoadScene("CityToEnd");
     }
 
     public static void GateOpenedUIActive()
