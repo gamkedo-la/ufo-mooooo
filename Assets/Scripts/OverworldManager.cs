@@ -22,6 +22,18 @@ public class OverworldManager : MonoBehaviour
     public GameObject PreLevel7Star1, PreLevel7Star2, PreLevel7Star3;
     public GameObject PreLevel8Star1, PreLevel8Star2, PreLevel8Star3;
 
+    public GameObject player;
+
+    private void Start()
+    {
+        if (GameManager.playerPreservedSpace.x == 0 && GameManager.playerPreservedSpace.y == 0 && GameManager.playerPreservedSpace.z == 0)
+        {
+            player.transform.position = new Vector3(-14.1f, -1.4f, -38.29f);
+        }
+        else
+            player.transform.position = GameManager.playerPreservedSpace;
+    }
+
     private void Awake()
     {
         #region Determine if stars are on

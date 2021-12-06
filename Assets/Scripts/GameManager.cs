@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
 
     public static bool gateOpened;
 
+    public static Vector3 playerPreservedSpace;
+
     private void Awake()
     {
         if (instance == null)
