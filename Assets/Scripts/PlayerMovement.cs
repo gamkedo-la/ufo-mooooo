@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool controllerDisabled;
 
+    public GameObject ship;
+
     public CharacterController controller;
 
     private void Start()
@@ -73,8 +75,33 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator ReturnControl()
     {
-        yield return new WaitForSeconds(3f);
-        controllerDisabled = false;
+        controller.enabled = false;
+        #region ToggleMeshRenderer
+        yield return new WaitForSeconds(.25f);
+        ship.GetComponent<MeshRenderer>().enabled = false;
+        yield return new WaitForSeconds(.25f);
+        ship.GetComponent<MeshRenderer>().enabled = true;
+        yield return new WaitForSeconds(.25f);
+        ship.GetComponent<MeshRenderer>().enabled = false;
+        yield return new WaitForSeconds(.25f);
+        ship.GetComponent<MeshRenderer>().enabled = true;
+        yield return new WaitForSeconds(.2f);
+        ship.GetComponent<MeshRenderer>().enabled = false;
+        yield return new WaitForSeconds(.2f);
+        ship.GetComponent<MeshRenderer>().enabled = true;
+        yield return new WaitForSeconds(.15f);
+        ship.GetComponent<MeshRenderer>().enabled = false;
+        yield return new WaitForSeconds(.15f);
+        ship.GetComponent<MeshRenderer>().enabled = true;
+        yield return new WaitForSeconds(.15f);
+        ship.GetComponent<MeshRenderer>().enabled = false;
+        yield return new WaitForSeconds(.15f);
+        ship.GetComponent<MeshRenderer>().enabled = true;
+        #endregion
+
+
         rb.useGravity = false;
+        controllerDisabled = false;
+        controller.enabled = true;
     }
 }
