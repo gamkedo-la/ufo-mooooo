@@ -46,7 +46,10 @@ public class CowLift : MonoBehaviour
             {
                 if (transform.position.y <= isBeingLevitatedTo.transform.position.y)
                 {
-                   // transform.position += Vector3.up * levitateSpeed * Time.deltaTime;
+                    //Smooth transition
+                   // transform.position += Vector3.right * levitateSpeed * Time.deltaTime;
+
+                    //jump to stopper position
                     transform.position = isBeingLevitatedTo.transform.position;
                 }
                 else
@@ -136,14 +139,11 @@ public class CowLift : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!isInGoal)
+        if (other.tag == "Beam")
         {
-            if (other.tag == "Beam")
-            {
-                rb.useGravity = false;
-                isBeingLevitatedTo = other.gameObject.GetComponent<TargetStopperHeight>().stopperHeight;
-                transform.parent = isBeingLevitatedTo.transform;
-            }
+            rb.useGravity = false;
+            isBeingLevitatedTo = other.gameObject.GetComponent<TargetStopperHeight>().stopperHeight;
+            transform.parent = isBeingLevitatedTo.transform;
         }
         if (other.tag == "Goal")
         {
