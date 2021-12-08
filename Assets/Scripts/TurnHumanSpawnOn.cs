@@ -5,7 +5,7 @@ using UnityEngine;
 public class TurnHumanSpawnOn : MonoBehaviour
 {
     public GameObject[] humanSpawns;
-    float softCountdown, startTimer = 15f;
+    public float softCountdown, startTimer = 15f;
 
 
     private void Start()

@@ -11,6 +11,8 @@ public class MoveToGoal : MonoBehaviour
 
     Rigidbody rb;
     public float levitateSpeed = 2.5f;
+    public Transform isBeingLevitatedTo;
+
     bool isBeingLevitated;
     bool hitTop;
 
@@ -35,34 +37,34 @@ public class MoveToGoal : MonoBehaviour
 
     private void Update()
     {
-       if (isBeingLevitated)
-       {
-            rb.velocity = transform.up * levitateSpeed;
-            navMesh.enabled = false; 
-       }
+        if (isBeingLevitatedTo != null)
+        {
+            if (transform.position.y <= isBeingLevitatedTo.transform.position.y)
+            {
+                transform.position += Vector3.up * levitateSpeed * Time.deltaTime;
+                //transform.position = isBeingLevitatedTo.transform.position;
+            }
+            else
+            {
+                //if it is near/above us this will lock it to us
+                transform.position = isBeingLevitatedTo.transform.position;
+            }
+
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                isBeingLevitatedTo = null;
+                rb.velocity = Vector3.zero;
+                rb.useGravity = true;
+                this.transform.parent = null;
+            }
+        }
 
         else
         {
             if (initialLanding)
             {
                 navMesh.destination = gate.position;
-                navMesh.enabled = true;
             }
-        }
-
-        if (hitTop)
-        {
-            isBeingLevitated = false;
-            rb.velocity = transform.up * 0;
-        }
-
-        if (Input.GetKeyUp(KeyCode.Space) && (hitTop || isBeingLevitated))
-        {
-            rb.velocity = transform.up * -5f;
-            hitTop = false;
-            rb.useGravity = true;
-            this.transform.parent = null;
-            humanHolder.transform.Rotate(this.transform.rotation.x, this.transform.rotation.y, -180);
         }
     }
 
@@ -70,14 +72,16 @@ public class MoveToGoal : MonoBehaviour
     {
         if (other.tag == "Beam")
         {
+            navMesh.enabled = false;
             rb.useGravity = false;
-            isBeingLevitated = true;
-            this.transform.parent = GameObject.FindGameObjectWithTag("Beam").transform;
+            isBeingLevitatedTo = other.gameObject.GetComponent<TargetStopperHeight>().stopperHeight;
+            transform.parent = isBeingLevitatedTo.transform;
         }
 
         if (other.tag == "Stopper")
         {
-            hitTop = true;
+            DestroySelf();
+            //hitTop = true;
         }
 
         if (other.tag == "Ground")
@@ -98,8 +102,10 @@ public class MoveToGoal : MonoBehaviour
         if (other.tag == "Beam")
         {
             rb.useGravity = true;
-            isBeingLevitated = false;
-            this.transform.parent = null;
+            isBeingLevitatedTo = null;
+            transform.parent = null;
+            rb.velocity = Vector3.zero;
+            isBeingLevitatedTo = null;
         }
 
         if (other.tag == "Stopper")
