@@ -449,16 +449,16 @@ MonoBehaviour:
   countdownClock: {fileID: 487691738}
   countdownText: {fileID: 1148488349}
   countdownObject: {fileID: 1260485523}
-  level1: 1
+  level1: 0
   level2: 0
   level3: 0
   level4: 0
   level5: 0
   level6: 0
   level7: 0
-  level8: 0
-  minutes: 0
-  seconds: 5
+  level8: 1
+  minutes: 2
+  seconds: 30
   TimeRemaining: {fileID: 355735851}
   cowsCollected: {fileID: 1350720293}
   goldCollectedRaw: {fileID: 1041484819}
@@ -2933,6 +2933,8 @@ MonoBehaviour:
   humanSpawns:
   - {fileID: 382157430}
   - {fileID: 1598277226}
+  softCountdown: 0
+  startTimer: 15
 --- !u!4 &1109725542
 Transform:
   m_ObjectHideFlags: 0
