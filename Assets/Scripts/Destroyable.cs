@@ -7,6 +7,7 @@ public class Destroyable : MonoBehaviour
     public string explosionResourcesPrefabName = "BoomBlocksDesert";
     // on by default to be used for adding more chaos to scene...
     public bool explodesIfHitByUfoBeam = true; // turn off for things only rockets or something else should affect
+    public bool explodesIfHitByUfoShip = true; // turn off for things only rockets or something else should affect
 
     void Blast() {
         GameObject spawnEffect = Resources.Load(explosionResourcesPrefabName) as GameObject;
@@ -18,6 +19,11 @@ public class Destroyable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if (explodesIfHitByUfoBeam && other.tag == "Beam") {
+            Blast();
+        }
+
+        if (explodesIfHitByUfoShip && other.tag == "Player")
+        {
             Blast();
         }
     }
