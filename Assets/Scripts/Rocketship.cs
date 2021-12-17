@@ -61,7 +61,7 @@ public class Rocketship : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player" || other.tag == "Stopper")
+        if (other.tag == "Player" || other.tag == "Stopper" || other.tag == "Ground")
         {
             hasCollided = true;
         }
