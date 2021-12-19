@@ -3240,6 +3240,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: human
+      value: 
+      objectReference: {fileID: 748511915645066849, guid: 33f14b0406d74144db2f1f06214c9508, type: 3}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
       objectReference: {fileID: 1282606727}
@@ -24356,6 +24360,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: human
+      value: 
+      objectReference: {fileID: 748511915645066849, guid: 33f14b0406d74144db2f1f06214c9508, type: 3}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
       objectReference: {fileID: 1282606727}
@@ -29280,6 +29288,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: human
+      value: 
+      objectReference: {fileID: 748511915645066849, guid: 33f14b0406d74144db2f1f06214c9508, type: 3}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
       objectReference: {fileID: 1282606727}
@@ -31025,6 +31037,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: human
+      value: 
+      objectReference: {fileID: 748511915645066849, guid: 33f14b0406d74144db2f1f06214c9508, type: 3}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
       objectReference: {fileID: 1282606727}
@@ -31633,6 +31649,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: human
+      value: 
+      objectReference: {fileID: 748511915645066849, guid: 33f14b0406d74144db2f1f06214c9508, type: 3}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
@@ -59173,6 +59193,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: human
+      value: 
+      objectReference: {fileID: 748511915645066849, guid: 33f14b0406d74144db2f1f06214c9508, type: 3}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
       objectReference: {fileID: 1282606727}
@@ -61517,6 +61541,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: human
+      value: 
+      objectReference: {fileID: 748511915645066849, guid: 33f14b0406d74144db2f1f06214c9508, type: 3}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
@@ -82692,6 +82720,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: human
+      value: 
+      objectReference: {fileID: 748511915645066849, guid: 33f14b0406d74144db2f1f06214c9508, type: 3}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
