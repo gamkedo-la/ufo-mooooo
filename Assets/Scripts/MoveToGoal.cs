@@ -22,11 +22,21 @@ public class MoveToGoal : MonoBehaviour
 
     GameObject humanSpottedText;
 
+    public bool isCityHuman;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         navMesh = GetComponent<NavMeshAgent>();
-        gate = GameObject.FindWithTag("Gate").transform;
+
+        if (!isCityHuman)
+        {
+            gate = GameObject.FindWithTag("Gate").transform;
+        }
+
+        else
+            gate = GameObject.FindGameObjectWithTag("GroundTrigger").transform;
+
 
         rb.useGravity = true;
         navMesh.enabled = false;

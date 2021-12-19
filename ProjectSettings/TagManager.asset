@@ -17,6 +17,7 @@ TagManager:
   - OutsideTarget
   - HumanSpotted
   - Water
+  - GroundTrigger
   layers:
   - Default
   - TransparentFX
