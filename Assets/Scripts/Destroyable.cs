@@ -8,6 +8,7 @@ public class Destroyable : MonoBehaviour
     // on by default to be used for adding more chaos to scene...
     public bool explodesIfHitByUfoBeam = true; // turn off for things only rockets or something else should affect
     public bool explodesIfHitByUfoShip = true; // turn off for things only rockets or something else should affect
+    public bool explodesIfHitByGround = true;
 
     void Blast() {
         GameObject spawnEffect = Resources.Load(explosionResourcesPrefabName) as GameObject;
@@ -23,6 +24,11 @@ public class Destroyable : MonoBehaviour
         }
 
         if (explodesIfHitByUfoShip && other.tag == "Player")
+        {
+            Blast();
+        }
+
+        if (explodesIfHitByGround && other.tag == "Ground")
         {
             Blast();
         }
