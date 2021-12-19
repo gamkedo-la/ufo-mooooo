@@ -1,5 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &672484431236719585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402030753528241837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a047aaa2503f6444b1ba01b7c3a259b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emissionPoint: {fileID: 672484429467534126}
+  rocket: {fileID: 1294376808524513347, guid: a1607cfc83de2644eb75a624aea5338a, type: 3}
+  countDowntimerMin: 10
+  countDowntimerMax: 15
+  currentCountdownTimer: 0
 --- !u!1 &672484429343813335
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,7 +817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locationToSpawn: {x: 41, y: -3.31, z: -38.4}
-  objectToSpawn: {fileID: 6658433403136669988, guid: 26eb76a7779487c4a8427a586e59d2bc, type: 3}
+  objectToSpawn: {fileID: 5087043827917190487, guid: f887ebd6822ae0d448b17fad7eb6c3af, type: 3}
 --- !u!95 &7707130642524873376
 Animator:
   serializedVersion: 3
@@ -929,23 +946,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &672484431236719585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402030753528241837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a047aaa2503f6444b1ba01b7c3a259b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  emissionPoint: {fileID: 672484429467534126}
-  rocket: {fileID: 1294376808524513347, guid: a1607cfc83de2644eb75a624aea5338a, type: 3}
-  countDowntimerMin: 10
-  countDowntimerMax: 15
-  currentCountdownTimer: 0
 --- !u!1 &672484431355289336
 GameObject:
   m_ObjectHideFlags: 0

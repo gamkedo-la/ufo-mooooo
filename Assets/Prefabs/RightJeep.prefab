@@ -576,7 +576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locationToSpawn: {x: 51.5, y: -2.84, z: -11.35}
-  objectToSpawn: {fileID: 6658433403136669988, guid: 26eb76a7779487c4a8427a586e59d2bc, type: 3}
+  objectToSpawn: {fileID: 5087043827917190487, guid: f887ebd6822ae0d448b17fad7eb6c3af, type: 3}
 --- !u!114 &5881197763362693366
 MonoBehaviour:
   m_ObjectHideFlags: 0
