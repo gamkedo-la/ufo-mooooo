@@ -14,6 +14,10 @@ public class ScoreCounter : MonoBehaviour
     public float timerToChange;
     public Transform newLocation;
 
+    public bool canChangeAgain;
+    public float timerToChangeAgain;
+    public Transform newLocationAgain;
+
     public Text score;
     public Text goalChanged;
 
@@ -42,7 +46,22 @@ public class ScoreCounter : MonoBehaviour
                 goalChanged.text = "Goal moved!";
                 StartCoroutine(Waiting());
             }
-        }  
+        }
+
+        if (canChangeAgain)
+        {
+            if (timerToChangeAgain >= 0)
+            {
+                timerToChangeAgain -= Time.deltaTime;
+            }
+
+            if (timerToChangeAgain <= 0)
+            {
+                gameObject.transform.position = newLocationAgain.transform.position;
+                goalChanged.text = "Goal moved!";
+                StartCoroutine(WaitingAgain());
+            }
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -86,5 +105,13 @@ public class ScoreCounter : MonoBehaviour
         goalChanged.text = "";
         timerToChange = 0;
         canChange = false;
+    }
+
+     IEnumerator WaitingAgain()
+    {
+        yield return new WaitForSeconds(3);
+        goalChanged.text = "";
+        timerToChangeAgain = 0;
+        canChangeAgain = false;
     }
 }
