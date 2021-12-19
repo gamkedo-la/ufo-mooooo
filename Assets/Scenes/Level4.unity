@@ -319,6 +319,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &19962076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19962074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &19962077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19962074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &22733420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -717,6 +747,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &55572199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55572197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &55572200
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55572197}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &62580938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -817,6 +877,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &62580942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62580940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &62580943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62580940}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &63033780
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1091,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &92201787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92201785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &92201788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92201785}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &92768023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1230,6 +1350,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &101038032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101038030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &101038033
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101038030}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &104587582
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,6 +1775,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &155307546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155307544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &155307547
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155307544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &155582601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2720,6 +2900,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &295773513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295773511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &295773514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295773511}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &301113451
 GameObject:
   m_ObjectHideFlags: 0
@@ -3174,6 +3384,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &348931954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348931952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &348931955
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348931952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &351901707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3274,6 +3514,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &351901711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351901709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &351901712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351901709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &367501267
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,6 +4116,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &450549968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450549966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &450549969
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450549966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &492980238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4148,6 +4448,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &526922094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526922092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &526922095
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526922092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &534395012
 GameObject:
   m_ObjectHideFlags: 0
@@ -4660,6 +4990,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &584079123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584079121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &584079124
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584079121}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &600015372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4760,6 +5120,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &600015376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600015374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &600015377
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600015374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &623339126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4946,6 +5336,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &627931574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627931572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &627931575
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627931572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &633391977
 GameObject:
   m_ObjectHideFlags: 0
@@ -5527,6 +5947,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &669080391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669080389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &669080392
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669080389}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &669194530
 GameObject:
   m_ObjectHideFlags: 0
@@ -5859,6 +6309,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &687378817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687378815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &687378818
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687378815}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &688837121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5959,6 +6439,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &688837125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688837123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &688837126
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688837123}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &702770981
 GameObject:
   m_ObjectHideFlags: 0
@@ -6892,6 +7402,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &811612635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811612633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &811612636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811612633}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &824088915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7078,6 +7618,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &875060166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875060164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &875060167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875060164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &875660606
 GameObject:
   m_ObjectHideFlags: 0
@@ -7274,6 +7844,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &886677054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886677052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &886677055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886677052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &892865852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7374,6 +7974,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &892865856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892865854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &892865857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892865854}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &893302349
 GameObject:
   m_ObjectHideFlags: 0
@@ -7520,6 +8150,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &907619362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907619360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &907619363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907619360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &914981389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7792,6 +8452,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &928881214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928881212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &928881215
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928881212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &932297290
 GameObject:
   m_ObjectHideFlags: 0
@@ -7971,6 +8661,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &932441585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932441583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &932441586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932441583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &940251182
 GameObject:
   m_ObjectHideFlags: 0
@@ -8263,6 +8983,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &961240083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961240081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &961240084
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961240081}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &978455364
 GameObject:
   m_ObjectHideFlags: 0
@@ -8459,6 +9209,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &980254451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980254449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &980254452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980254449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &992828601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9117,6 +9897,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1113026376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113026374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1113026377
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113026374}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1120567682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9495,6 +10305,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1153719407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153719405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1153719408
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153719405}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1154368027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9595,6 +10435,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1154368031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154368029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1154368032
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154368029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!4 &1161246643 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5930556600733106000, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
@@ -10012,6 +10882,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1187652023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187652021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1187652024
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187652021}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1195174162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10112,6 +11012,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1195174166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195174164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1195174167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195174164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!4 &1209906337 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5930556600733106000, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
@@ -10217,6 +11147,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1215092252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215092250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1215092253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215092250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1217375788
 GameObject:
   m_ObjectHideFlags: 0
@@ -10713,6 +11673,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1240464815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240464813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1240464816
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240464813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1245830153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11392,6 +12382,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1321561660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321561658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1321561661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321561658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1326231293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11492,6 +12512,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1326231297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326231295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1326231298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326231295}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1366341492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11592,6 +12642,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1366341496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366341494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1366341497
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366341494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1368188054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11692,6 +12772,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1368188058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368188056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1368188059
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368188056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1370697813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11792,6 +12902,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1370697817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370697815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1370697818
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370697815}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1383831045
 GameObject:
   m_ObjectHideFlags: 0
@@ -12478,6 +13618,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1442494777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442494775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1442494778
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442494775}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1446575861
 GameObject:
   m_ObjectHideFlags: 0
@@ -13275,6 +14445,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1522659602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522659600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1522659603
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522659600}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!4 &1524944647 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5930556600733106000, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
@@ -13380,6 +14580,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1565108977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565108975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1565108978
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565108975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1567255000
 GameObject:
   m_ObjectHideFlags: 0
@@ -14372,6 +15602,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1658425753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658425751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1658425754
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658425751}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1658905854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14654,6 +15914,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1672373914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672373912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1672373915
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672373912}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1674676687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14754,6 +16044,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1674676691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674676689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1674676692
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674676689}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1676507527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14854,6 +16174,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1676507531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676507529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1676507532
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676507529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1700224482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14954,6 +16304,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1700224486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700224484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1700224487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700224484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1702155699
 GameObject:
   m_ObjectHideFlags: 0
@@ -15557,6 +16937,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1786925026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786925024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1786925027
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786925024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1802523560
 GameObject:
   m_ObjectHideFlags: 0
@@ -16039,6 +17449,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1856316291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856316289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1856316292
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856316289}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1867644947
 GameObject:
   m_ObjectHideFlags: 0
@@ -16313,6 +17753,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1884947464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884947462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1884947465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884947462}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1898950081
 GameObject:
   m_ObjectHideFlags: 0
@@ -16900,6 +18370,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1934875477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934875475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1934875478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934875475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1938197093
 GameObject:
   m_ObjectHideFlags: 0
@@ -17261,6 +18761,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1958199894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958199892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1958199895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958199892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &1965143666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17447,6 +18977,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &1971610746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971610744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &1971610747
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971610744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &1972360463
 GameObject:
   m_ObjectHideFlags: 0
@@ -17708,6 +19268,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &2019547428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019547426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &2019547429
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019547426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &2020930226
 GameObject:
   m_ObjectHideFlags: 0
@@ -18319,6 +19909,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &2096186916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096186914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &2096186917
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096186914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1 &2102443181
 GameObject:
   m_ObjectHideFlags: 0
@@ -18772,6 +20392,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040528007, y: 0.042787805, z: 0.25035417}
   m_Center: {x: -0.003225315, y: 0.0021952172, z: 0.11517709}
+--- !u!114 &2130622495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130622493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+  health: 30
+--- !u!65 &2130622496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130622493}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07, y: 0.07, z: 0.250354}
+  m_Center: {x: -0.00322, y: 0.002195, z: 0.1151771}
 --- !u!1001 &5930556601426541808
 PrefabInstance:
   m_ObjectHideFlags: 0
