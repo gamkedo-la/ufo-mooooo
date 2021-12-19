@@ -27,6 +27,8 @@ public class LevelManager : MonoBehaviour
     public GameObject Continue;
     public static GameObject gateOpenedUI;
 
+    public AudioSource Country;
+
     public bool goToCredits;
     private void Start()
     {
@@ -133,6 +135,16 @@ public class LevelManager : MonoBehaviour
         {
             roundStarted = true;
             seconds -= Time.deltaTime;
+            if (minutes <= 0 && seconds <= 30)
+            {
+                Country.pitch = 1.25f;
+            }
+
+            if (minutes <= 0 && seconds <= 15)
+            {
+                Country.pitch = 1.5f;
+            }
+
             if (seconds <= 10)
             {
                 TimeRemaining.text = minutes + ":0" + seconds.ToString("F0");
@@ -146,6 +158,7 @@ public class LevelManager : MonoBehaviour
             {
                 if (minutes <= 0 && seconds <= 0)
                 {
+                    Country.pitch = 1f;
                     TimeRemaining.text = "0:00";
                     stopCountDown = true;
                     print("Play end of level sound effect");

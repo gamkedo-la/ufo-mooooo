@@ -23192,7 +23192,7 @@ PrefabInstance:
       objectReference: {fileID: 1917232238}
     - target: {fileID: 519213353476515850, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: timerToChange
-      value: 5
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 519213353476515850, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: canChangeAgain
@@ -23204,7 +23204,7 @@ PrefabInstance:
       objectReference: {fileID: 869078598}
     - target: {fileID: 519213353476515850, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: timerToChangeAgain
-      value: 10
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
