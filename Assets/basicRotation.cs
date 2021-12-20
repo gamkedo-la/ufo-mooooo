@@ -26,8 +26,6 @@ public class basicRotation : MonoBehaviour
                 startForward = true;
             }
         }
-        Quaternion target = Quaternion.Euler(0, 0, rotation);
 
-        transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * 500);
     }
 }
