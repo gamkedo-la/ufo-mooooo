@@ -14,6 +14,69 @@ public class TurnLevelOrbOn : MonoBehaviour
     private void Start()
     {
         StartCoroutine(TurnOn());
+
+        if (GameManager.CtoF1 && CtoF1)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.F1toF2 && F1toF2)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.F2toC && F2toC)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.CtoI1 && CtoI1)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.I1toI2 && I1toI2)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.I2toC && I2toC)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.CtoD1 && CtoD1)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.D1toD2 && D1toD2)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.D2toC && D2toC)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.CtoC1 && CtoC1)
+        {
+            ForLoop();
+        }
+
+        if (GameManager.C1toC2 && C1toC2)
+        {
+            ForLoop();
+        }
+    }
+
+    void ForLoop()
+    {
+        for (int i = 0; i < orbs.Length; i++)
+        {
+            orbs[i].SetActive(true);
+        }
     }
 
     IEnumerator TurnOn()
@@ -24,7 +87,7 @@ public class TurnLevelOrbOn : MonoBehaviour
             orbs[i].SetActive(true);
         }
 
-        if (CtoF1)
+        if (CtoF1 && GameManager.tempCtoF1)
         {
             GameManager.CtoF1 = true;
         }
@@ -39,7 +102,7 @@ public class TurnLevelOrbOn : MonoBehaviour
             GameManager.F2toC = true;
         }
 
-        if (CtoI1)
+        if (CtoI1 && GameManager.tempCtoI1)
         {
             GameManager.CtoI1 = true;
         }
@@ -54,7 +117,7 @@ public class TurnLevelOrbOn : MonoBehaviour
             GameManager.I2toC = true;
         }
 
-        if (CtoD1)
+        if (CtoD1 && GameManager.tempCtoD1)
         {
             GameManager.CtoD1 = true;
         }
@@ -69,7 +132,7 @@ public class TurnLevelOrbOn : MonoBehaviour
             GameManager.D2toC = true;
         }
 
-        if (CtoC1)
+        if (CtoC1 && GameManager.tempCtoC1)
         {
             GameManager.CtoC1 = true;
         }

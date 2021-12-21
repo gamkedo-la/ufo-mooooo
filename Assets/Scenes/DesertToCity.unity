@@ -1893,6 +1893,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1192281421452442222, guid: b0ca7bcdfe434ff46b05e7e3445c87bf, type: 3}
+      propertyPath: CtoC1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1192281421452442222, guid: b0ca7bcdfe434ff46b05e7e3445c87bf, type: 3}
       propertyPath: LevelToLoad
       value: LevelSelect
       objectReference: {fileID: 0}

@@ -24,6 +24,11 @@ public class OverworldManager : MonoBehaviour
 
     public GameObject player;
 
+    public GameObject CtoF1, F1toF2, F2toC,
+                      CtoI1, I1toI2, I2toC,
+                      CtoD1, D1toD2, D2toC,
+                      CtoC1, C1toC2;
+
     private void Start()
     {
         if (GameManager.playerPreservedSpace.x == 0 && GameManager.playerPreservedSpace.y == 0 && GameManager.playerPreservedSpace.z == 0)
@@ -32,6 +37,68 @@ public class OverworldManager : MonoBehaviour
         }
         else
             player.transform.position = GameManager.playerPreservedSpace;
+
+        //Farm
+        if (GameManager.tempCtoF1 || GameManager.tempCtoF1)
+        {
+            CtoF1.SetActive(true);
+        }
+
+        if (GameManager.highestLevel1Score >= GameManager.Level1Star1)
+        {
+            F1toF2.SetActive(true);
+        }
+
+        if (GameManager.highestLevel2Score >= GameManager.Level2Star1)
+        {
+            F2toC.SetActive(true);
+        }
+
+        //Island
+
+        if (GameManager.tempCtoI1 || GameManager.tempCtoI1)
+        {
+            CtoI1.SetActive(true);
+        }
+
+        if (GameManager.highestLevel3Score >= GameManager.Level3Star1)
+        {
+            I1toI2.SetActive(true);
+        }
+
+        if (GameManager.highestLevel4Score >= GameManager.Level4Star1)
+        {
+            I2toC.SetActive(true);
+        }
+
+        //Desert
+
+        if (GameManager.tempCtoD1 || GameManager.tempCtoD1)
+        {
+            CtoD1.SetActive(true);
+        }
+
+        if (GameManager.highestLevel5Score >= GameManager.Level5Star1)
+        {
+            D1toD2.SetActive(true);
+        }
+
+        if (GameManager.highestLevel6Score >= GameManager.Level6Star1)
+        {
+            D2toC.SetActive(true);
+        }
+
+        //City
+
+        if (GameManager.tempCtoC1 || GameManager.tempCtoC1)
+        {
+            CtoC1.SetActive(true);
+        }
+
+        if (GameManager.highestLevel7Score >= GameManager.Level7Star1)
+        {
+            C1toC2.SetActive(true);
+        }
     }
 
     private void Awake()
