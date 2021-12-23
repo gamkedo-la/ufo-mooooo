@@ -7,7 +7,7 @@ public class CamPanInOut : MonoBehaviour
    public float panMin = 55, panMax = 65;
     public float speed = .5f;
     bool flip;
-    float pan = 42;
+    public float pan = 42;
 
     public Camera mainCam;
     public void Update()
