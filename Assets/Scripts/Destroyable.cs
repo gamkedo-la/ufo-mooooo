@@ -13,7 +13,7 @@ public class Destroyable : MonoBehaviour
     void Blast() {
         GameObject spawnEffect = Resources.Load(explosionResourcesPrefabName) as GameObject;
         if(spawnEffect) {
-            GameObject.Instantiate(spawnEffect, transform.position, Quaternion.identity);
+            GameObject.Instantiate(spawnEffect, transform.position, transform.rotation);
         }
         Destroy(gameObject);        
     }
