@@ -9512,6 +9512,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.17000937, y: 0.13608508, z: 0.14136356}
   m_Center: {x: 0, y: 0, z: 0.060681783}
+--- !u!114 &239772455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239772453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BarnBlast
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
 --- !u!1001 &241560385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13505,6 +13521,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.17000937, y: 0.13608508, z: 0.14136356}
   m_Center: {x: 0, y: 0, z: 0.060681783}
+--- !u!114 &359824388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359824386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BarnBlast
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
 --- !u!1 &363576918
 GameObject:
   m_ObjectHideFlags: 0
@@ -14425,6 +14457,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7b8acda0dbd24b242af24a4cf681d201, type: 3}
   m_PrefabInstance: {fileID: 2142970810}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &495568477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495568476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BarnBlast
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
 --- !u!4 &495568479 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7b8acda0dbd24b242af24a4cf681d201, type: 3}
