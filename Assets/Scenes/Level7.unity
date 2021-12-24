@@ -610,6 +610,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 690045858}
     m_Modifications:
+    - target: {fileID: 5402852950580475124, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950658878010, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5402852950658878015, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -681,6 +689,14 @@ PrefabInstance:
     - target: {fileID: 5402852950886167143, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_Name
       value: HumanSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950970744423, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852952432041976, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402852952432041981, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_NavMeshLayer
@@ -1599,6 +1615,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1293053062}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857564149580, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -1683,9 +1703,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 6.86
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 6.710004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590606, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_NavMeshLayer
@@ -12999,6 +13031,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 690045858}
     m_Modifications:
+    - target: {fileID: 5402852950580475124, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950658878010, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5402852950658878015, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -13070,6 +13110,14 @@ PrefabInstance:
     - target: {fileID: 5402852950886167143, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_Name
       value: HumanSpawn (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950970744423, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852952432041976, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402852952432041981, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_NavMeshLayer
@@ -19392,6 +19440,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1293053062}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857564149580, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -19476,9 +19528,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 6.86
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 6.710004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590606, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_NavMeshLayer
@@ -36874,6 +36938,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1293053062}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857564149580, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -36958,9 +37026,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 6.86
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 6.710004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590606, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_NavMeshLayer
@@ -38058,6 +38138,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 690045858}
     m_Modifications:
+    - target: {fileID: 5402852950580475124, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950658878010, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5402852950658878015, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -38129,6 +38217,14 @@ PrefabInstance:
     - target: {fileID: 5402852950886167143, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_Name
       value: HumanSpawn (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950970744423, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852952432041976, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402852952432041981, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_NavMeshLayer
@@ -41676,6 +41772,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1293053062}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857564149580, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -41760,9 +41860,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 6.86
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 6.710004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590606, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_NavMeshLayer
@@ -42831,6 +42943,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 690045858}
     m_Modifications:
+    - target: {fileID: 5402852950580475124, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950658878010, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5402852950658878015, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -42902,6 +43022,14 @@ PrefabInstance:
     - target: {fileID: 5402852950886167143, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_Name
       value: HumanSpawn (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950970744423, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852952432041976, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402852952432041981, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_NavMeshLayer

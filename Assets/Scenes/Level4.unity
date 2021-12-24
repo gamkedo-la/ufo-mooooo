@@ -335,7 +335,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &19962077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -763,7 +762,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &55572200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -893,7 +891,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &62580943
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1107,7 +1104,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &92201788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1366,7 +1362,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &101038033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1433,6 +1428,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 409504411}
     m_Modifications:
+    - target: {fileID: 5402852950580475124, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167136, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1484,6 +1483,10 @@ PrefabInstance:
     - target: {fileID: 5402852950886167143, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_Name
       value: HumanSpawn (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950970744423, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
@@ -1791,7 +1794,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &155307547
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2069,6 +2071,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 409504411}
     m_Modifications:
+    - target: {fileID: 5402852950580475124, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167136, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2120,6 +2126,10 @@ PrefabInstance:
     - target: {fileID: 5402852950886167143, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_Name
       value: HumanSpawn (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950970744423, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
@@ -2431,6 +2441,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2083600364}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062483, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2467,6 +2481,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 24.49
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193858424419098, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.06
@@ -2478,6 +2500,10 @@ PrefabInstance:
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 24.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
@@ -2916,7 +2942,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &295773514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3400,7 +3425,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &348931955
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3530,7 +3554,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &351901712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4132,7 +4155,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &450549969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4153,6 +4175,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2083600364}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062483, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4205,9 +4231,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 29.92
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 29.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
@@ -4464,7 +4502,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &526922095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5006,7 +5043,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &584079124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5136,7 +5172,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &600015377
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5352,7 +5387,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &627931575
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5963,7 +5997,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &669080392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6325,7 +6358,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &687378818
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6455,7 +6487,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &688837126
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7418,7 +7449,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &811612636
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7634,7 +7664,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &875060167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7860,7 +7889,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &886677055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7990,7 +8018,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &892865857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8166,7 +8193,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &907619363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8468,7 +8494,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &928881215
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8677,7 +8702,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &932441586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8999,7 +9023,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &961240084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9225,7 +9248,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &980254452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9913,7 +9935,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1113026377
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10321,7 +10342,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1153719408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10451,7 +10471,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1154368032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10898,7 +10917,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1187652024
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11028,7 +11046,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1195174167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11163,7 +11180,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1215092253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11689,7 +11705,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1240464816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12398,7 +12413,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1321561661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12528,7 +12542,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1326231298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12658,7 +12671,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1366341497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12788,7 +12800,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1368188059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12918,7 +12929,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1370697818
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13634,7 +13644,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1442494778
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14021,6 +14030,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2083600364}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857564149583, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: -10.65
@@ -14069,6 +14082,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 13.949997
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193858424419098, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.75
@@ -14084,6 +14105,10 @@ PrefabInstance:
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 13.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
@@ -14195,6 +14220,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2083600364}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857564149583, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.69
@@ -14255,9 +14284,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 23.27
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 23.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
@@ -14461,7 +14502,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1522659603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14596,7 +14636,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1565108978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14932,6 +14971,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2083600364}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062483, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -14988,6 +15031,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 24.49
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193858424419098, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.06
@@ -14999,6 +15050,10 @@ PrefabInstance:
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 24.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
@@ -15618,7 +15673,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1658425754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15930,7 +15984,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1672373915
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16060,7 +16113,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1674676692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16190,7 +16242,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1676507532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16320,7 +16371,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1700224487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16609,6 +16659,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 409504411}
     m_Modifications:
+    - target: {fileID: 5402852950580475124, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167136, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -16660,6 +16714,10 @@ PrefabInstance:
     - target: {fileID: 5402852950886167143, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: m_Name
       value: HumanSpawn (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950970744423, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
@@ -16953,7 +17011,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1786925027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17465,7 +17522,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1856316292
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17769,7 +17825,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1884947465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18149,6 +18204,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2083600364}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062483, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -18205,6 +18264,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 24.49
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193858424419098, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.06
@@ -18216,6 +18283,10 @@ PrefabInstance:
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 24.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
@@ -18386,7 +18457,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1934875478
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18777,7 +18847,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1958199895
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18993,7 +19062,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &1971610747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19284,7 +19352,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &2019547429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19925,7 +19992,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &2096186917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20217,6 +20283,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2083600364}
     m_Modifications:
+    - target: {fileID: 4612193857564149577, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193857564149583, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.799999
@@ -20273,6 +20343,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 24.49
       objectReference: {fileID: 0}
+    - target: {fileID: 4612193858043591047, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193858424419092, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4612193858424419098, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.06
@@ -20284,6 +20362,10 @@ PrefabInstance:
     - target: {fileID: 4612193859278590601, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 24.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193859278590603, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
@@ -20408,7 +20490,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
-  health: 30
 --- !u!65 &2130622496
 BoxCollider:
   m_ObjectHideFlags: 0
