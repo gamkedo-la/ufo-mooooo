@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class CowLift : MonoBehaviour
 {
     Rigidbody rb;
@@ -21,12 +22,20 @@ public class CowLift : MonoBehaviour
     bool inWater;
     public float waterLife = 3f;
 
+    AudioSource sound;
+    int mooToPick;
+    public AudioClip[] moo;
+    public AudioClip fallingMoo;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         currentStay = Random.Range(minStay, maxStay);
         transform.rotation = Quaternion.Euler(0,Random.Range(0, 360), 0);
         currentMove = Random.Range(minMove, maxMove);
+
+        mooToPick = Random.Range(0, moo.Length);
+        sound = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -144,6 +153,7 @@ public class CowLift : MonoBehaviour
             rb.useGravity = false;
             isBeingLevitatedTo = other.gameObject.GetComponent<TargetStopperHeight>().stopperHeight;
             transform.parent = isBeingLevitatedTo.transform;
+            sound.PlayOneShot(moo[mooToPick], 1f);
         }
         if (other.tag == "Goal")
         {
@@ -181,7 +191,7 @@ public class CowLift : MonoBehaviour
             {
                 inWater = false;
             }
-
+            sound.PlayOneShot(fallingMoo, 1.5f);
         }
     }
 }
