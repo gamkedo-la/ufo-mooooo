@@ -1194,7 +1194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3066607362189385871, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3066607362189385871, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
       propertyPath: m_LocalScale.z
@@ -7110,7 +7110,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &750658707
 GameObject:
@@ -10549,6 +10549,7 @@ MonoBehaviour:
   Continue: {fileID: 1320090589}
   Country: {fileID: 1177987128}
   goToCredits: 0
+  player: {fileID: 1235439961}
 --- !u!4 &1177987127
 Transform:
   m_ObjectHideFlags: 0
@@ -10561,7 +10562,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1177987128
 AudioSource:
@@ -11398,9 +11399,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: UFO
       objectReference: {fileID: 0}
+    - target: {fileID: 2961823178622916148, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11448,6 +11453,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
+--- !u!1 &1235439961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2961823178622916146, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
+  m_PrefabInstance: {fileID: 1235439960}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1236188971
 GameObject:
   m_ObjectHideFlags: 0
@@ -11731,7 +11741,7 @@ PrefabInstance:
       objectReference: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 519213353476515846, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 519213353476515846, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: m_LocalScale.x

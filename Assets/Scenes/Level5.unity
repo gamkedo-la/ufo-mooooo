@@ -14711,6 +14711,7 @@ MonoBehaviour:
   Continue: {fileID: 287595094}
   Country: {fileID: 1041333807}
   goToCredits: 0
+  player: {fileID: 1306201083}
 --- !u!4 &1041333806
 Transform:
   m_ObjectHideFlags: 0
@@ -17659,6 +17660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UFO
       objectReference: {fileID: 0}
+    - target: {fileID: 2961823178622916148, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -17709,6 +17714,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
+--- !u!1 &1306201083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2961823178622916146, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
+  m_PrefabInstance: {fileID: 1306201082}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1332263468
 GameObject:
   m_ObjectHideFlags: 0

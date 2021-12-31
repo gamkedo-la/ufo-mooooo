@@ -2958,6 +2958,7 @@ MonoBehaviour:
   Continue: {fileID: 2136034289}
   Country: {fileID: 496172364}
   goToCredits: 0
+  player: {fileID: 1471963471}
 --- !u!4 &496172363
 Transform:
   m_ObjectHideFlags: 0
@@ -2970,7 +2971,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &496172364
 AudioSource:
@@ -6024,7 +6025,7 @@ Transform:
   - {fileID: 37053699}
   - {fileID: 1509594897}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1160240951
 PrefabInstance:
@@ -7224,6 +7225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UFO
       objectReference: {fileID: 0}
+    - target: {fileID: 2961823178622916148, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -7270,6 +7275,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
+--- !u!1 &1471963471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2961823178622916146, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
+  m_PrefabInstance: {fileID: 1471963470}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1508708451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8982,7 +8992,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3087e9bd1b88e5e4781b255af6dff39b, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3087e9bd1b88e5e4781b255af6dff39b, type: 3}
       propertyPath: m_LocalScale.x
@@ -9340,7 +9350,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1872779232 stripped
 GameObject:

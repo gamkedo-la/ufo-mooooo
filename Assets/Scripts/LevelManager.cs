@@ -30,6 +30,8 @@ public class LevelManager : MonoBehaviour
     public AudioSource Country;
 
     public bool goToCredits;
+
+    public GameObject player;
     private void Start()
     {
         GameManager.gateOpened = false;
@@ -123,6 +125,8 @@ public class LevelManager : MonoBehaviour
             else
             {
                 countdownText.text = "Go!";
+                //turn player on
+                player.GetComponent<PlayerMovement>().enabled = true;
             }
         }
         else
