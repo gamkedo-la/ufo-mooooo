@@ -40210,8 +40210,8 @@ MonoBehaviour:
   level6: 0
   level7: 1
   level8: 0
-  minutes: 0
-  seconds: 40
+  minutes: 1
+  seconds: 30
   TimeRemaining: {fileID: 1785070556}
   cowsCollected: {fileID: 143826301}
   goldCollectedRaw: {fileID: 342755440}

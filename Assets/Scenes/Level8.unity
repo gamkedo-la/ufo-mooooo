@@ -5716,7 +5716,7 @@ MonoBehaviour:
   level6: 0
   level7: 0
   level8: 1
-  minutes: 2
+  minutes: 1
   seconds: 30
   TimeRemaining: {fileID: 355735851}
   cowsCollected: {fileID: 1350720293}

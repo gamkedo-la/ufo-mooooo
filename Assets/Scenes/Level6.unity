@@ -2323,7 +2323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18832,7 +18832,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 38.501, y: -75.489, z: 1.138}
 --- !u!1001 &946721992
 PrefabInstance:
@@ -23388,7 +23388,7 @@ MonoBehaviour:
   level6: 1
   level7: 0
   level8: 0
-  minutes: 2
+  minutes: 1
   seconds: 30
   TimeRemaining: {fileID: 922838211}
   cowsCollected: {fileID: 390534719}
@@ -23417,7 +23417,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1196733143
 AudioSource:
@@ -29328,7 +29328,7 @@ Transform:
   m_LocalScale: {x: 0.40000024, y: 0.4, z: 0.40000024}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1491345392
 PrefabInstance:
@@ -31956,7 +31956,7 @@ PrefabInstance:
       objectReference: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 519213353476515846, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 519213353476515846, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: m_LocalScale.x

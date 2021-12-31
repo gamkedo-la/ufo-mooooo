@@ -936,7 +936,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1149,7 +1149,7 @@ Transform:
   m_LocalScale: {x: 15, y: 1, z: 15}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &64349021
 PrefabInstance:
@@ -14695,7 +14695,7 @@ MonoBehaviour:
   level6: 0
   level7: 0
   level8: 0
-  minutes: 2
+  minutes: 1
   seconds: 30
   TimeRemaining: {fileID: 2006426142}
   cowsCollected: {fileID: 120472976}
@@ -14724,7 +14724,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1041333807
 AudioSource:
@@ -15499,7 +15499,7 @@ PrefabInstance:
       objectReference: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 519213353476515846, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 519213353476515846, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: m_LocalScale.x
@@ -17666,7 +17666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19013,7 +19013,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 49.97, y: -29.972, z: 0.039}
 --- !u!1 &1398344974
 GameObject:
@@ -26728,7 +26728,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
       propertyPath: m_LocalScale.x

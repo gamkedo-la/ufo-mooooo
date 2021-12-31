@@ -10533,7 +10533,7 @@ MonoBehaviour:
   level6: 0
   level7: 0
   level8: 0
-  minutes: 2
+  minutes: 1
   seconds: 30
   TimeRemaining: {fileID: 661841604}
   cowsCollected: {fileID: 198373518}
