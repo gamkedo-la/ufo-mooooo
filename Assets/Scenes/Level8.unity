@@ -35573,6 +35573,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936a3684bcb5dda4e92b43f54fe7e4ca, type: 3}
+--- !u!1001 &1984514078
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -194.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 36.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423081, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392116385350423082, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
+      propertyPath: m_Name
+      value: Background Sand
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a5824fe75afbf044980feb97322d5abb, type: 3}
 --- !u!1 &1987356536
 GameObject:
   m_ObjectHideFlags: 0
