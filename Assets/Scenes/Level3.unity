@@ -3934,7 +3934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksDesert
+  explosionResourcesPrefabName: BoomBlocksBungalow
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -6624,7 +6624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksDesert
+  explosionResourcesPrefabName: BoomBlocksBungalow
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -7306,7 +7306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksDesert
+  explosionResourcesPrefabName: BoomBlocksBungalow
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -7565,7 +7565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksDesert
+  explosionResourcesPrefabName: BoomBlocksBungalow
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -11511,7 +11511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksDesert
+  explosionResourcesPrefabName: BoomBlocksBungalow
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
