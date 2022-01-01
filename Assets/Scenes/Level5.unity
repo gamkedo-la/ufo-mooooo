@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -6054,7 +6054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -8860,7 +8860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -12793,6 +12793,45 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2870244987835788988, guid: b7f64a5dd6b9c91409fb9ae875ed540b, type: 3}
   m_PrefabInstance: {fileID: 881567493}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &881989906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+  m_PrefabInstance: {fileID: 1169707729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &881989907 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+  m_PrefabInstance: {fileID: 1169707729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &881989908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881989906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+--- !u!65 &881989909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881989906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05447904, y: 0.01714527, z: 0.10225666}
+  m_Center: {x: 0.0009854867, y: -0.000044204353, z: 0.051611472}
 --- !u!1001 &886559091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14862,6 +14901,7 @@ Transform:
   - {fileID: 735868709}
   - {fileID: 2084640639}
   - {fileID: 998083298}
+  - {fileID: 881989907}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15156,7 +15196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -16237,7 +16277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -17104,6 +17144,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156847056}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1169707729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1005726815}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_RootOrder
+      value: 233
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -116.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -539
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.21857545
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.21857545
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.67247665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.67247665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 216.011
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
+      propertyPath: m_Name
+      value: cactus2 (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 126ac394c1723374493f1f30d2c130fd, type: 3}
 --- !u!1 &1169900662
 GameObject:
   m_ObjectHideFlags: 0
@@ -19512,7 +19621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -23642,7 +23751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -26410,7 +26519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -26975,7 +27084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -28243,7 +28352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
@@ -28343,6 +28452,97 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055793727}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2056772264
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -46.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+      propertyPath: m_Name
+      value: cactus (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+--- !u!1 &2056772265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6579075c87b02a34f96515b3d4654576, type: 3}
+  m_PrefabInstance: {fileID: 2056772264}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2056772266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056772265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksCactus
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+--- !u!65 &2056772267
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056772265}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.021008804, y: 0.021291599, z: 0.021129616}
+  m_Center: {x: 0.0009938232, y: 0.0005422601, z: 0.0005648093}
 --- !u!1 &2064990354
 GameObject:
   m_ObjectHideFlags: 0
@@ -28831,7 +29031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionResourcesPrefabName: BoomBlocksCactus
+  explosionResourcesPrefabName: BoomBlocksCactus2Tall
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
