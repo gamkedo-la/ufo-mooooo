@@ -162,6 +162,7 @@ public class LevelManager : MonoBehaviour
             {
                 if (minutes <= 0 && seconds <= 0)
                 {
+                    player.GetComponent<PlayerMovement>().enabled = false;
                     Country.pitch = 1f;
                     TimeRemaining.text = "0:00";
                     stopCountDown = true;
