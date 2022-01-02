@@ -14560,8 +14560,8 @@ MonoBehaviour:
   level6: 0
   level7: 0
   level8: 0
-  minutes: 1
-  seconds: 30
+  minutes: 2
+  seconds: 0
   TimeRemaining: {fileID: 2006426142}
   cowsCollected: {fileID: 1422989632}
   goldCollectedRaw: {fileID: 1422989629}
@@ -14778,7 +14778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1061615689}
   m_LocalRotation: {x: -0.2086764, y: 0.6745909, z: -0.20768964, w: -0.676939}
-  m_LocalPosition: {x: 34.2, y: 27.8, z: -40.7}
+  m_LocalPosition: {x: 79.4, y: 27.8, z: -15.400002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15492,7 +15492,7 @@ PrefabInstance:
       objectReference: {fileID: 62633439}
     - target: {fileID: 519213353476515850, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: timerToChange
-      value: 45
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 519213353476515851, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: m_Size.y
@@ -17837,7 +17837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.2
+      value: 58.4
       objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17845,7 +17845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -42.8
+      value: -17.5
       objectReference: {fileID: 0}
     - target: {fileID: 2961823178622916151, guid: f741ddd68d6cdc54f98cdefb1133a120, type: 3}
       propertyPath: m_LocalRotation.w

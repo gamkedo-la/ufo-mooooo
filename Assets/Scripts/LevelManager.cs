@@ -252,10 +252,14 @@ public class LevelManager : MonoBehaviour
         GameManager.SaveGame();
 
         Continue.SetActive(true);
+
+        Time.timeScale = 0;
     }
 
     public void ContinueButton()
     {
+        Time.timeScale = 1;
+
         score = 0;
         goldScore = 0;
 
