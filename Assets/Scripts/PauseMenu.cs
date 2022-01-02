@@ -41,7 +41,6 @@ public class PauseMenu : MonoBehaviour
         //Set current score to 0
         LevelManager.score = 0;
         LevelManager.goldScore = 0;
-        LevelManager.humanScore = 0;
         LevelManager.total = 0;
         //ReLoad room
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -54,7 +53,6 @@ public class PauseMenu : MonoBehaviour
         //Set current score to 0
         LevelManager.score = 0;
         LevelManager.goldScore = 0;
-        LevelManager.humanScore = 0;
         LevelManager.total = 0;
         //Load to level select
         SceneManager.LoadScene("LevelSelect");

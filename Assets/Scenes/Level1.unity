@@ -13717,17 +13717,6 @@ MonoBehaviour:
   explodesIfHitByUfoBeam: 1
   explodesIfHitByUfoShip: 0
   explodesIfHitByGround: 0
---- !u!114 &363576920 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7573795400420501137, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
-  m_PrefabInstance: {fileID: 7573795400195676361}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &371831923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13860,17 +13849,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2870244987835788988, guid: b7f64a5dd6b9c91409fb9ae875ed540b, type: 3}
   m_PrefabInstance: {fileID: 376317852}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &391635077 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7573795400385132620, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
-  m_PrefabInstance: {fileID: 7573795400195676361}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &407038873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43586,8 +43564,6 @@ MonoBehaviour:
   cowsCollected: {fileID: 1785532226}
   goldCollectedRaw: {fileID: 225168028}
   goldCollected: {fileID: 1789585643}
-  humanCollectedRaw: {fileID: 391635077}
-  humanCollected: {fileID: 363576920}
   totalCollected: {fileID: 1626862700}
   levelFinished: {fileID: 1913757059}
   star1: {fileID: 128807952}

@@ -126,8 +126,6 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("VD2toC", VD2toC);
         PlayerPrefs.SetInt("VCtoC1", VCtoC1);
         PlayerPrefs.SetInt("VC1toC2", VC1toC2);
-
-        print("Game Saved: " + highestLevel1Score);
     }
 
     public static void LoadGame()

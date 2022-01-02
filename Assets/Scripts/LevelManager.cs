@@ -19,9 +19,9 @@ public class LevelManager : MonoBehaviour
     public float minutes = 1, seconds = 30;
     public Text TimeRemaining;
     bool stopCountDown;
-    public static int score, goldScore, humanScore, total;
+    public static int score, goldScore, total;
 
-    public Text cowsCollected, goldCollectedRaw, goldCollected, humanCollectedRaw, humanCollected, totalCollected;
+    public Text cowsCollected, goldCollectedRaw, goldCollected, totalCollected;
     int scoreStar1, scoreStar2, scoreStar3;
     public GameObject levelFinished, star1, star2, star3;
     public GameObject Continue;
@@ -41,7 +41,6 @@ public class LevelManager : MonoBehaviour
 
         score = 0;
         goldScore = 0;
-        humanScore = 0;
         total = 0;
 
         if (ignoreInitialLevelDelay)
@@ -166,7 +165,6 @@ public class LevelManager : MonoBehaviour
                     Country.pitch = 1f;
                     TimeRemaining.text = "0:00";
                     stopCountDown = true;
-                    print("Play end of level sound effect");
                     levelFinished.SetActive(true);
                     StartCoroutine(EndScreen());
                 }
@@ -187,12 +185,11 @@ public class LevelManager : MonoBehaviour
         cowsCollected.text = score.ToString();
 
         goldCollectedRaw.text = goldScore.ToString();
-        humanCollectedRaw.text = humanScore.ToString();
 
         goldCollected.text = (5 * goldScore).ToString();
-        humanCollected.text = (-5 * humanScore).ToString();
 
-        total = (score + (goldScore * 5) + (humanScore * -5));
+        total = (goldScore * 5) + score;
+
         totalCollected.text = total.ToString(); 
         if (total >= scoreStar1)
         {
@@ -261,7 +258,6 @@ public class LevelManager : MonoBehaviour
     {
         score = 0;
         goldScore = 0;
-        humanScore = 0;
 
         if (!goToCredits)
         {

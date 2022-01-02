@@ -12,6 +12,8 @@ public class BasicMovement : MonoBehaviour
 
     public CharacterController controller;
 
+    public GameObject redShip;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
