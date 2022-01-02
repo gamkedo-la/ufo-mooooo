@@ -11295,6 +11295,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Complete Banner
       objectReference: {fileID: 0}
+    - target: {fileID: 7573795398821021002, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7573795398821021004, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
+      propertyPath: m_Color.b
+      value: 0.80784315
+      objectReference: {fileID: 0}
+    - target: {fileID: 7573795398821021004, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7573795398821021004, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
+      propertyPath: m_Color.r
+      value: 0.69411767
+      objectReference: {fileID: 0}
     - target: {fileID: 7573795398821021005, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -23261,6 +23277,22 @@ PrefabInstance:
     - target: {fileID: 519213353476515850, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: timerToChangeAgain
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 519213353476515851, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.54276276
+      objectReference: {fileID: 0}
+    - target: {fileID: 519213353476515851, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
+      propertyPath: m_Size.z
+      value: 1.4107388
+      objectReference: {fileID: 0}
+    - target: {fileID: 519213353476515851, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
+      propertyPath: m_Center.y
+      value: -0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 519213353476515851, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
+      propertyPath: m_Center.z
+      value: -0.022232104
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}

@@ -15492,7 +15492,15 @@ PrefabInstance:
       objectReference: {fileID: 62633439}
     - target: {fileID: 519213353476515850, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
       propertyPath: timerToChange
-      value: 10
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 519213353476515851, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
+      propertyPath: m_Size.y
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 519213353476515851, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
+      propertyPath: m_Center.y
+      value: 0.39
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d361ba415d90224488c943b9ecaf74f, type: 3}
@@ -19414,6 +19422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Complete Banner
       objectReference: {fileID: 0}
+    - target: {fileID: 7573795398821021002, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7573795398821021005, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -19492,11 +19504,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7573795398821021005, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -408.2464
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7573795398821021005, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -264.72864
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7573795398821021005, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
