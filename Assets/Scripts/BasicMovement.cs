@@ -8,6 +8,10 @@ public class BasicMovement : MonoBehaviour
 
     private Rigidbody rb;
 
+    public float horizontalSpeed = 5;
+
+    public CharacterController controller;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -15,12 +19,21 @@ public class BasicMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+        float zAxis = Input.GetAxisRaw("zAxis");
 
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        Vector3 direction = new Vector3(horizontal, 0, -vertical).normalized;
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, -moveVertical);
-        rb.AddForce(movement * speed);
+        if (direction.magnitude >= 0.1f)
+        {
+            controller.Move(direction * horizontalSpeed * Time.deltaTime);
+        }
+
+        if (direction.magnitude <= 0.1f)
+        {
+            controller.Move(direction * 0 * Time.deltaTime);
+        }
     }
 
 }

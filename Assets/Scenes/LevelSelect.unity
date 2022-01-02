@@ -3625,7 +3625,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 31.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &154863308
 MeshRenderer:
@@ -12162,7 +12162,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 31.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &467435350
 MeshRenderer:
@@ -19428,7 +19428,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 31.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &887783857
 MeshRenderer:
@@ -22913,6 +22913,7 @@ GameObject:
   - component: {fileID: 1032131549}
   - component: {fileID: 1032131548}
   - component: {fileID: 1032131551}
+  - component: {fileID: 1032131552}
   m_Layer: 0
   m_Name: UFO
   m_TagString: Player
@@ -22933,6 +22934,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  horizontalSpeed: 9
+  controller: {fileID: 1032131552}
 --- !u!65 &1032131549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22978,6 +22981,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!143 &1032131552
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032131547}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1032202332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31819,7 +31840,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 31.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1461404715
 MeshRenderer:
