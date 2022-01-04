@@ -185,6 +185,7 @@ public class CowLift : MonoBehaviour
                 isBeingLevitatedTo = null;
                 transform.parent = null;
                 rb.velocity = Vector3.zero;
+                transform.localScale = new Vector3(1, 1, 1);
             }
 
             if (other.tag == "Water")
