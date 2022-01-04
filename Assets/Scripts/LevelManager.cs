@@ -274,6 +274,9 @@ public class LevelManager : MonoBehaviour
     public static void GateOpenedUIActive()
     {
         gateOpenedUI.SetActive(true);
+        score = 0;
+        goldScore = 0;
+        total = 0;
         GameManager.gateOpened = true;
     }
 
