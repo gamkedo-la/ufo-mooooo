@@ -1863,6 +1863,10 @@ PrefabInstance:
       propertyPath: currentWaypoint
       value: 
       objectReference: {fileID: 707727574}
+    - target: {fileID: 5930556601133330960, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
+      propertyPath: countDowntimerMin
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6180953766416291270, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.48188782
@@ -2385,7 +2389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4034,7 +4038,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9209,6 +9213,10 @@ PrefabInstance:
       propertyPath: currentWaypoint
       value: 
       objectReference: {fileID: 893302350}
+    - target: {fileID: 5930556601133330960, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
+      propertyPath: countDowntimerMin
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6180953766416291270, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.50008726
@@ -13684,6 +13692,10 @@ PrefabInstance:
       propertyPath: currentWaypoint
       value: 
       objectReference: {fileID: 212268933}
+    - target: {fileID: 5930556601133330960, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
+      propertyPath: countDowntimerMin
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6180953766416291270, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.50008726
@@ -13845,7 +13857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14043,7 +14055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14486,7 +14498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16483,6 +16495,10 @@ PrefabInstance:
       propertyPath: currentWaypoint
       value: 
       objectReference: {fileID: 1905487128}
+    - target: {fileID: 5930556601133330960, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
+      propertyPath: countDowntimerMin
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6180953766416291270, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.50008726
@@ -17827,7 +17843,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19779,7 +19795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20165,6 +20181,10 @@ PrefabInstance:
       propertyPath: currentWaypoint
       value: 
       objectReference: {fileID: 1932608812}
+    - target: {fileID: 5930556601133330960, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
+      propertyPath: countDowntimerMin
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6180953766416291270, guid: 917e3110fa3d8db40878362dca8772cc, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.50008726
