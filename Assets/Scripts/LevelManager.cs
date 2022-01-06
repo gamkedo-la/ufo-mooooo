@@ -253,12 +253,12 @@ public class LevelManager : MonoBehaviour
 
         Continue.SetActive(true);
 
-        Time.timeScale = 0;
+       // Time.timeScale = 0;
     }
 
     public void ContinueButton()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
 
         score = 0;
         goldScore = 0;

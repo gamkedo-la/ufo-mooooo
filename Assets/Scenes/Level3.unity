@@ -314,8 +314,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emissionPoint: {fileID: 438324449}
   rocket: {fileID: 1294376808524513347, guid: a1607cfc83de2644eb75a624aea5338a, type: 3}
-  countDowntimerMin: 10
-  countDowntimerMax: 15
+  countDowntimerMin: 15
+  countDowntimerMax: 20
   currentCountdownTimer: 0
 --- !u!4 &37053699 stripped
 Transform:
@@ -501,6 +501,14 @@ PrefabInstance:
       propertyPath: human
       value: 
       objectReference: {fileID: 4317152789787876229, guid: 522150a0cd102034cae37b4abb6d0688, type: 3}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: timerMax
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: timerMin
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
@@ -3300,7 +3308,7 @@ MonoBehaviour:
   - {fileID: 1872779232}
   - {fileID: 479861714}
   softCountdown: 0
-  startTimer: 15
+  startTimer: 8
 --- !u!4 &701093201
 Transform:
   m_ObjectHideFlags: 0
@@ -5388,8 +5396,24 @@ PrefabInstance:
       value: 58.8
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: maxCows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: minCows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: timerMax
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: timerMin
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6279,6 +6303,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4317152789787876229, guid: 522150a0cd102034cae37b4abb6d0688, type: 3}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: timerMax
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: timerMin
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
       objectReference: {fileID: 701093199}
@@ -6819,8 +6851,24 @@ PrefabInstance:
       value: CowSpawningBox (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: maxCows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: minCows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: timerMax
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: timerMin
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7244,8 +7292,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emissionPoint: {fileID: 2065358383}
   rocket: {fileID: 1294376808524513347, guid: a1607cfc83de2644eb75a624aea5338a, type: 3}
-  countDowntimerMin: 10
-  countDowntimerMax: 15
+  countDowntimerMin: 15
+  countDowntimerMax: 20
   currentCountdownTimer: 0
 --- !u!1001 &1510676915
 PrefabInstance:
@@ -7310,6 +7358,14 @@ PrefabInstance:
       propertyPath: human
       value: 
       objectReference: {fileID: 4317152789787876229, guid: 522150a0cd102034cae37b4abb6d0688, type: 3}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: timerMax
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: timerMin
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
@@ -8719,6 +8775,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4317152789787876229, guid: 522150a0cd102034cae37b4abb6d0688, type: 3}
     - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: timerMax
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
+      propertyPath: timerMin
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5402852950886167140, guid: 5f0eb31618001c3419bc936d9bc11c7b, type: 3}
       propertyPath: HumanLocationChoice
       value: 
       objectReference: {fileID: 701093199}
@@ -8908,8 +8972,24 @@ PrefabInstance:
       value: CowSpawningBox (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: maxCows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: minCows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: timerMax
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
+      propertyPath: timerMin
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4612193857740062487, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: percentForGoldCow
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4612193858043591045, guid: c31ccba9e4a7e9341af812c40b55095e, type: 3}
       propertyPath: m_LocalPosition.z
