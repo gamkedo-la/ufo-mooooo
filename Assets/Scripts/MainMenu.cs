@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public GameObject anim, menu;
+
+    public GameObject controlsMenu;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -29,5 +31,17 @@ public class MainMenu : MonoBehaviour
     public void Credits()
     {
         SceneManager.LoadScene("Credits");
+    }
+
+    public void Controls()
+    {
+        controlsMenu.SetActive(true);
+        menu.SetActive(false);
+    }
+
+    public void Back()
+    {
+        menu.SetActive(true);
+        controlsMenu.SetActive(false);
     }
 }
