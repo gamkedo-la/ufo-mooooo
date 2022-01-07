@@ -54,6 +54,7 @@ public class CowLift : MonoBehaviour
             facing.y = 0.0f; // flatten
             transform.rotation = Quaternion.LookRotation(facing); // preventing tilt stretch bug
             rb.constraints = RigidbodyConstraints.FreezeRotation; // releases bug that sometimes locks up gold cow
+            isInGoal = false; // workaround for cases of escaped cow stuck in beam
         }
 
         if (!isInGoal)
@@ -123,7 +124,7 @@ public class CowLift : MonoBehaviour
             if (GameManager.gateOpened)
             {
                 GetComponent<BoxCollider>().enabled = true;
-                rb.constraints = RigidbodyConstraints.None;
+                rb.constraints = RigidbodyConstraints.FreezeRotation; // was None, led to some tilted stretched cows
 
                 transform.LookAt(GameObject.FindGameObjectWithTag("OutsideTarget").transform);
 
