@@ -60,12 +60,14 @@ public class PlayerMovement : MonoBehaviour
             {
                 beam.GetComponent<CapsuleCollider>().enabled = true;
                 beamAnimation.SetActive(true);
+                horizontalSpeed = horizontalSpeed / 2f;
             }
 
             if (Input.GetKeyUp(KeyCode.Space))
             {
                 beam.GetComponent<CapsuleCollider>().enabled = false;
                 beamAnimation.SetActive(false);
+                horizontalSpeed = horizontalSpeed * 2f;
             }
             #endregion
         }
