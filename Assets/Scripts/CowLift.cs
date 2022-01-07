@@ -38,7 +38,7 @@ public class CowLift : MonoBehaviour
         sound = GetComponent<AudioSource>();
     }
 
-    private void Update()
+    private void LateUpdate() // after beam/player/camera position to reduce stutter
     {
         if (inWater)
         {
@@ -56,12 +56,20 @@ public class CowLift : MonoBehaviour
                 if (transform.position.y <= isBeingLevitatedTo.transform.position.y)
                 {
                     //Smooth transition
-                   // transform.position += Vector3.right * levitateSpeed * Time.deltaTime;
+                    //transform.position += Vector3.up * levitateSpeed * Time.deltaTime;
 
                     //jump to stopper position
-                    transform.position = isBeingLevitatedTo.transform.position;
-                }
-                else
+                    // transform.position = isBeingLevitatedTo.transform.position;
+
+                    //Smooth vertical transition with lateral alignment enforcement so we don't drop them
+                    Vector3 newPosition = isBeingLevitatedTo.transform.position;
+                    newPosition.y = transform.position.y + levitateSpeed * Time.deltaTime * 2.0f;
+                    transform.position = newPosition;
+                    Vector3 facing = transform.forward;
+                    facing.y = 0.0f; // flatten
+                    transform.rotation = Quaternion.LookRotation(facing); // preventing tilt stretch bug
+
+                } else
                 {
                     //if it is near/above us this will lock it to us
                     transform.position = isBeingLevitatedTo.transform.position;
@@ -72,6 +80,7 @@ public class CowLift : MonoBehaviour
                     isBeingLevitatedTo = null;
                     rb.velocity = Vector3.zero;
                     rb.useGravity = true;
+                    gameObject.layer = LayerMask.NameToLayer("Default");
                     this.transform.parent = null;
                 }
             }
@@ -151,6 +160,7 @@ public class CowLift : MonoBehaviour
         if (other.tag == "Beam")
         {
             rb.useGravity = false;
+            gameObject.layer = LayerMask.NameToLayer("CowInBeam");
             isBeingLevitatedTo = other.gameObject.GetComponent<TargetStopperHeight>().stopperHeight;
             transform.parent = isBeingLevitatedTo.transform;
             sound.PlayOneShot(moo[mooToPick], 1f);
@@ -182,6 +192,7 @@ public class CowLift : MonoBehaviour
             if (other.tag == "Beam")
             {
                 rb.useGravity = true;
+                gameObject.layer = LayerMask.NameToLayer("Default");
                 isBeingLevitatedTo = null;
                 transform.parent = null;
                 rb.velocity = Vector3.zero;

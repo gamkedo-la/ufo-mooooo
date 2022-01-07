@@ -71,7 +71,7 @@ public class MoveToGoal : MonoBehaviour
 
         else
         {
-            if (initialLanding)
+            if (initialLanding && navMesh)
             {
                 navMesh.destination = gate.position;
             }
