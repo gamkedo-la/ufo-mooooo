@@ -32,6 +32,7 @@ public class LevelManager : MonoBehaviour
     public bool goToCredits;
 
     public GameObject player;
+    public Text scoreText;
     private void Start()
     {
         GameManager.gateOpened = false;
@@ -178,6 +179,8 @@ public class LevelManager : MonoBehaviour
                 }
             }        
         }
+
+        scoreText.text = (score + (goldScore * 5)).ToString();
     }
 
     IEnumerator EndScreen()
