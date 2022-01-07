@@ -35,6 +35,7 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         GameManager.gateOpened = false;
+        Country.volume = 0.3f; // mixing adjustment from code to apply to all levels, to make late sound additions easier to hear
 
         gateOpenedUI = GameObject.FindGameObjectWithTag("GateOpened");
         gateOpenedUI.SetActive(false);

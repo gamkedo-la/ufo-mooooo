@@ -16,10 +16,24 @@ public class PlayerMovement : MonoBehaviour
     public GameObject ship;
 
     public CharacterController controller;
+    private AudioSource UFOBeamSound;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        UFOBeamSound = GetComponent<AudioSource>();
+        UFOBeamSound.volume = 0.0f;
+    }
+
+    private void FixedUpdate() {
+        float beamFade = 0.1f;
+        float targetVol;
+        if(beamAnimation.activeSelf) {
+            targetVol = 1.0f;
+        } else {
+            targetVol = 0.0f;
+        }
+        UFOBeamSound.volume = beamFade * targetVol + (1.0f - beamFade) * UFOBeamSound.volume;
     }
 
     void Update()
