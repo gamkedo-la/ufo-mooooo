@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public static int Level2Star1 = 10, Level2Star2 = 20, Level2Star3 = 30;
     public static int Level3Star1 = 15, Level3Star2 = 30, Level3Star3 = 40;
     public static int Level4Star1 = 20, Level4Star2 = 30, Level4Star3 = 50;
-    public static int Level5Star1 = 1, Level5Star2 = 3, Level5Star3 = 8;
+    public static int Level5Star1 = 10, Level5Star2 = 20, Level5Star3 = 30;
     public static int Level6Star1 = 1, Level6Star2 = 3, Level6Star3 = 8;
     public static int Level7Star1 = 1, Level7Star2 = 3, Level7Star3 = 8;
     public static int Level8Star1 = 1, Level8Star2 = 3, Level8Star3 = 8;
