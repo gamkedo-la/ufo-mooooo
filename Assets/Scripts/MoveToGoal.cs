@@ -76,6 +76,10 @@ public class MoveToGoal : MonoBehaviour
                 navMesh.destination = gate.position;
             }
         }
+
+        Vector3 facing = transform.forward;
+        facing.y = 0.0f; // flatten
+        transform.rotation = Quaternion.LookRotation(facing); // preventing tilt stretch bug
     }
 
     private void OnTriggerEnter(Collider other)
