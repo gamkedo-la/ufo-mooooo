@@ -49,6 +49,13 @@ public class CowLift : MonoBehaviour
             }
         }
 
+        if (isBeingLevitatedTo != null) { // even if we've been in a goal, do some bug prevention
+            Vector3 facing = transform.forward;
+            facing.y = 0.0f; // flatten
+            transform.rotation = Quaternion.LookRotation(facing); // preventing tilt stretch bug
+            rb.constraints = RigidbodyConstraints.FreezeRotation; // releases bug that sometimes locks up gold cow
+        }
+
         if (!isInGoal)
         {
             if (isBeingLevitatedTo != null)
@@ -73,6 +80,9 @@ public class CowLift : MonoBehaviour
                 {
                     //if it is near/above us this will lock it to us
                     transform.position = isBeingLevitatedTo.transform.position;
+                    Vector3 facing = transform.forward;
+                    facing.y = 0.0f; // flatten
+                    transform.rotation = Quaternion.LookRotation(facing); // preventing tilt stretch bug
                 }
 
                 if (Input.GetKeyUp(KeyCode.Space))
@@ -82,6 +92,7 @@ public class CowLift : MonoBehaviour
                     rb.useGravity = true;
                     gameObject.layer = LayerMask.NameToLayer("Default");
                     this.transform.parent = null;
+                    rb.constraints = RigidbodyConstraints.FreezeRotation; // releases bug that sometimes locks up gold cow
                 }
             }
 

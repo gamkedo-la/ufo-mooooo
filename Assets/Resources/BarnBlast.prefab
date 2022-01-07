@@ -4783,7 +4783,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3457454678939188016}
-  - component: {fileID: -5467347466982122944}
   m_Layer: 0
   m_Name: BarnBlast
   m_TagString: Untagged
@@ -4807,13 +4806,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &-5467347466982122944
+--- !u!82 &2961354788665656679
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5162176636713259242}
+  m_GameObject: {fileID: 6289290121955694831}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -5067,6 +5066,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4695f271695c40ef9c7fe46f336ca93, type: 3}
+--- !u!1 &6289290121955694831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2134701205219806923, guid: e4695f271695c40ef9c7fe46f336ca93, type: 3}
+  m_PrefabInstance: {fileID: 5393051090456630820}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6289290121955694830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2134701205219806922, guid: e4695f271695c40ef9c7fe46f336ca93, type: 3}

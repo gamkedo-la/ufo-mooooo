@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4374117, g: 0.48521364, b: 0.5654881, a: 1}
+  m_IndirectSpecularColor: {r: 0.4374114, g: 0.48521352, b: 0.5654878, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7213,6 +7213,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 726f7b75a4280ef4a97c5a42f4d751e8, type: 3}
   m_PrefabInstance: {fileID: 290389718}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &290389720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 726f7b75a4280ef4a97c5a42f4d751e8, type: 3}
+  m_PrefabInstance: {fileID: 290389718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &290389721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290389720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksPinetree
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+--- !u!65 &290389722
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290389720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0889236, y: 0.08892362, z: 0.036298368}
+  m_Center: {x: -0.0000008020443, y: -0.00000084464915, z: 0.008149181}
 --- !u!1 &290592609
 GameObject:
   m_ObjectHideFlags: 0
@@ -16600,6 +16634,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 726f7b75a4280ef4a97c5a42f4d751e8, type: 3}
   m_PrefabInstance: {fileID: 777020043}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &777020045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 726f7b75a4280ef4a97c5a42f4d751e8, type: 3}
+  m_PrefabInstance: {fileID: 777020043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &777020046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777020045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksPinetree
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+--- !u!65 &777020047
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777020045}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0889236, y: 0.08892362, z: 0.036298368}
+  m_Center: {x: -0.0000008020443, y: -0.00000084464915, z: 0.008149181}
 --- !u!1 &779851412
 GameObject:
   m_ObjectHideFlags: 0
@@ -26486,6 +26554,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 726f7b75a4280ef4a97c5a42f4d751e8, type: 3}
   m_PrefabInstance: {fileID: 1219110339}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1219110341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 726f7b75a4280ef4a97c5a42f4d751e8, type: 3}
+  m_PrefabInstance: {fileID: 1219110339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1219110342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219110341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksPinetree
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+--- !u!65 &1219110343
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219110341}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0889236, y: 0.08892362, z: 0.036298368}
+  m_Center: {x: -0.0000008020443, y: -0.00000084464915, z: 0.008149181}
 --- !u!4 &1223614176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2870244987835788988, guid: b7f64a5dd6b9c91409fb9ae875ed540b, type: 3}
@@ -43174,6 +43276,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 726f7b75a4280ef4a97c5a42f4d751e8, type: 3}
   m_PrefabInstance: {fileID: 2098514152}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2098514154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 726f7b75a4280ef4a97c5a42f4d751e8, type: 3}
+  m_PrefabInstance: {fileID: 2098514152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2098514155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098514154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeb516508d52497baaed38d621a423c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionResourcesPrefabName: BoomBlocksPinetree
+  explodesIfHitByUfoBeam: 1
+  explodesIfHitByUfoShip: 0
+  explodesIfHitByGround: 0
+--- !u!65 &2098514156
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098514154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0889236, y: 0.08892362, z: 0.036298368}
+  m_Center: {x: -0.0000008020443, y: -0.00000084464915, z: 0.008149181}
 --- !u!1 &2102473015
 GameObject:
   m_ObjectHideFlags: 0
