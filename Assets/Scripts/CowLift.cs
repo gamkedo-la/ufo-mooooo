@@ -125,7 +125,7 @@ public class CowLift : MonoBehaviour
             {
                 GetComponent<BoxCollider>().enabled = true;
                 rb.constraints = RigidbodyConstraints.FreezeRotation; // was None, led to some tilted stretched cows
-
+                rb.constraints = RigidbodyConstraints.FreezePositionY;
                 transform.LookAt(GameObject.FindGameObjectWithTag("OutsideTarget").transform);
 
                 transform.Translate(Vector3.forward * Time.deltaTime * travelingSpeed * 5);
@@ -147,6 +147,12 @@ public class CowLift : MonoBehaviour
             transform.parent = null;
            // rb.velocity = Vector3.zero;
             transform.localScale = new Vector3(1, 1, 1);
+        }
+
+        if (!isInGoal && !GameManager.gateOpened)
+        {
+            rb.constraints = RigidbodyConstraints.None;
+            rb.constraints = RigidbodyConstraints.FreezeRotation;
         }
     }
 
