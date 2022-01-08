@@ -6,7 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody rb;
     public float verticalSpeed = 3;
-    public float horizontalSpeed = 5;
+    float horizontalSpeed;
+    public float baseSpeed = 15;
+    public float doubledSpeed = 30;
 
     public GameObject beam;
     public GameObject beamAnimation;
@@ -18,11 +20,15 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
     private AudioSource UFOBeamSound;
 
+    public GameObject cowStopper;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         UFOBeamSound = GetComponent<AudioSource>();
         UFOBeamSound.volume = 0.0f;
+
+        horizontalSpeed = doubledSpeed;
     }
 
     private void FixedUpdate() {
@@ -60,14 +66,13 @@ public class PlayerMovement : MonoBehaviour
             {
                 beam.GetComponent<CapsuleCollider>().enabled = true;
                 beamAnimation.SetActive(true);
-                horizontalSpeed = horizontalSpeed / 2f;
+                horizontalSpeed = baseSpeed;
             }
 
             if (Input.GetKeyUp(KeyCode.Space))
             {
-                beam.GetComponent<CapsuleCollider>().enabled = false;
-                beamAnimation.SetActive(false);
-                horizontalSpeed = horizontalSpeed * 2f;
+                BeamRetract();
+                horizontalSpeed = doubledSpeed;
             }
             #endregion
         }
@@ -79,12 +84,20 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void BeamRetract()
+    {
+        beam.GetComponent<CapsuleCollider>().enabled = false;
+        beamAnimation.SetActive(false);
+        cowStopper.transform.DetachChildren();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Rocket")
         {
             controllerDisabled = true;
             rb.useGravity = true;
+            BeamRetract();
             StartCoroutine(ReturnControl());
         }
     }

@@ -138,6 +138,16 @@ public class CowLift : MonoBehaviour
                 rb.constraints = RigidbodyConstraints.FreezeAll;
             }
         }
+
+        if (transform.parent == null)
+        {
+            rb.useGravity = true;
+            gameObject.layer = LayerMask.NameToLayer("Default");
+            isBeingLevitatedTo = null;
+            transform.parent = null;
+           // rb.velocity = Vector3.zero;
+            transform.localScale = new Vector3(1, 1, 1);
+        }
     }
 
     IEnumerator WaitForRotate()
