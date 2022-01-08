@@ -18471,6 +18471,22 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3066607362189385864, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
+      propertyPath: m_Size.x
+      value: 2.1271114
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066607362189385864, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
+      propertyPath: m_Size.z
+      value: 1.9999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066607362189385864, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
+      propertyPath: m_Center.x
+      value: -0.12228042
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066607362189385864, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
+      propertyPath: m_Center.z
+      value: 0.000000014468545
+      objectReference: {fileID: 0}
     - target: {fileID: 3066607362189385867, guid: 8be9c83b3697a494fa4a5b6eccbaeac8, type: 3}
       propertyPath: m_Name
       value: Gate (1)
@@ -22519,7 +22535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3879942587913053827, guid: cc7a4b8be42894043b6d67e820359781, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3879942587913053827, guid: cc7a4b8be42894043b6d67e820359781, type: 3}
       propertyPath: m_AnchorMax.x
@@ -23387,7 +23403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7573795398821021005, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7573795398821021005, guid: 0d006665be787d14599d7ef6755cc5bc, type: 3}
       propertyPath: m_AnchorMax.x
