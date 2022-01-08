@@ -10,6 +10,7 @@ public class GoToLevel : MonoBehaviour
     public void RoomTravel()
     {
         GameManager.playerPreservedSpace = player.transform.position;
+
         SceneManager.LoadScene(RoomToGoTo);
     }   
 }

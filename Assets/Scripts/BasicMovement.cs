@@ -17,6 +17,11 @@ public class BasicMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+
+        GetComponent<BoxCollider>().enabled = false;
+        GetComponent<CharacterController>().enabled = false;
+
+        StartCoroutine(Waiting());
     }
 
     void FixedUpdate()
@@ -36,6 +41,13 @@ public class BasicMovement : MonoBehaviour
         {
             controller.Move(direction * 0 * Time.deltaTime);
         }
+    }
+
+    IEnumerator Waiting()
+    {
+        yield return new WaitForSeconds(0.5f);
+        GetComponent<BoxCollider>().enabled = true;
+        GetComponent<CharacterController>().enabled = true;
     }
 
 }

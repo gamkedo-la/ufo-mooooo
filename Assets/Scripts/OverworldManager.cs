@@ -33,10 +33,12 @@ public class OverworldManager : MonoBehaviour
     {
         if (GameManager.playerPreservedSpace.x == 0 && GameManager.playerPreservedSpace.y == 0 && GameManager.playerPreservedSpace.z == 0)
         {
-            player.transform.position = new Vector3(-14.1f, -1.4f, -38.29f);
+            player.transform.position = new Vector3(-20.59f, -1.4f, -36.88f);
         }
         else
+        {
             player.transform.position = GameManager.playerPreservedSpace;
+        }
 
         //Farm
         if (GameManager.tempCtoF1 || GameManager.tempCtoF1)
