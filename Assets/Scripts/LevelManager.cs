@@ -163,6 +163,13 @@ public class LevelManager : MonoBehaviour
             {
                 if (minutes <= 0 && seconds <= 0)
                 {
+                    GameObject[] human = GameObject.FindGameObjectsWithTag("Human");
+                    foreach (GameObject go in human)
+                    {
+                        Destroy(go);
+                    }
+
+
                     player.GetComponent<PlayerMovement>().enabled = false;
                     Country.pitch = 1f;
                     TimeRemaining.text = "0:00";
