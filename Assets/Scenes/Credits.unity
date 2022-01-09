@@ -487,8 +487,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -119, y: -267.2493}
-  m_SizeDelta: {x: 457.8234, y: 143.6698}
+  m_AnchoredPosition: {x: -119, y: -274}
+  m_SizeDelta: {x: 457.8234, y: 162.8517}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254519270
 MonoBehaviour:
@@ -527,7 +527,8 @@ MonoBehaviour:
 
     Destruction script, damaged barn model variant, assorted
     explosion authoring (barn roof, tree, cactus, bungalow), explosion particle texture,
-    various sound and visual effects, smoother cow lift implementation'
+    various sound and visual effects, smoother cow lift implementation, various quality
+    of life improvements'
 --- !u!222 &254519271
 CanvasRenderer:
   m_ObjectHideFlags: 0
