@@ -24,7 +24,7 @@ public class BasicMovement : MonoBehaviour
         StartCoroutine(Waiting());
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
